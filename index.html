@@ -1,0 +1,2048 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <title>prenova-ok-estate-strani</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Silicon - Multipurpose Technology Bootstrap Template">
+    <meta name="keywords"
+        content="bootstrap, business, creative agency, mobile app showcase, saas, fintech, finance, online courses, software, medical, conference landing, services, e-commerce, shopping cart, multipurpose, shop, ui kit, marketing, seo, landing, blog, portfolio, html5, css3, javascript, gallery, slider, touch, creative">
+    <meta name="author" content="Createx Studio">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Theme switcher (color modes) -->
+    <script src="assets/js/theme-switcher.js"></script>
+
+    <!-- Favicon and Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#080032">
+    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
+
+    <!-- Main Theme Styles + Bootstrap -->
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+
+    <!-- Page loading styles -->
+    <style>
+        .page-loading {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all .4s .2s ease-in-out;
+            transition: all .4s .2s ease-in-out;
+            background-color: #fff;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 9999;
+        }
+
+        [data-bs-theme="dark"] .page-loading {
+            background-color: #0b0f19;
+        }
+
+        .page-loading.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .page-loading-inner {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -webkit-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
+            opacity: 0;
+        }
+
+        .page-loading.active>.page-loading-inner {
+            opacity: 1;
+        }
+
+        .page-loading-inner>span {
+            display: block;
+            font-size: 1rem;
+            font-weight: normal;
+            color: #9397ad;
+        }
+
+        [data-bs-theme="dark"] .page-loading-inner>span {
+            color: #fff;
+            opacity: .6;
+        }
+
+        .page-spinner {
+            display: inline-block;
+            width: 2.75rem;
+            height: 2.75rem;
+            margin-bottom: .75rem;
+            vertical-align: text-bottom;
+            border: .15em solid #b4b7c9;
+            border-right-color: transparent;
+            border-radius: 50%;
+            -webkit-animation: spinner .75s linear infinite;
+            animation: spinner .75s linear infinite;
+        }
+
+        [data-bs-theme="dark"] .page-spinner {
+            border-color: rgba(255, 255, 255, .4);
+            border-right-color: transparent;
+        }
+
+        @-webkit-keyframes spinner {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spinner {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <!-- Page loading scripts -->
+    <script>
+        (function () {
+            window.onload = function () {
+                const preloader = document.querySelector('.page-loading');
+                preloader.classList.remove('active');
+                setTimeout(function () {
+                    preloader.remove();
+                }, 1000);
+            };
+        })();
+    </script>
+
+
+</head>
+
+
+<!-- Body -->
+
+<body>
+
+    <!-- Page loading spinner -->
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+            <div class="page-spinner"></div><span>Loading...</span>
+        </div>
+    </div>
+
+
+    <!-- Page wrapper for sticky footer -->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="page-wrapper">
+
+        <!-- Post title + Meta  -->
+        <section class="container mt-4 pt-lg-2 pb-3">
+            <h1 class="pb-3" style="max-width: 970px;">Kako investirati v sklade in preprečiti, da vas slovenska
+                finančna industrija ne obere do kosti?</h1>
+            <div class="d-flex flex-md-row flex-column align-items-md-center justify-content-md-between mb-3">
+                <div class="d-flex align-items-center position-relative ps-md-3 pe-lg-5 mb-2">
+                    <img src="assets/img/bizzio/avatar.png" class="rounded-circle" width="60" alt="Avatar">
+                    <div class="ps-3">
+                        <h6 class="mb-1">Author</h6>
+                        <h6 class="fw-semibold">Ok_Estate_6650</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Post image (parallax) -->
+        <div class="jarallax mb-lg-5 mb-4" data-jarallax data-speed="0.35" style="height: 36.45vw; min-height: 300px;">
+            <div class="jarallax-img" style="background-image: url(assets/img/bizzio/blog-cover.jpg);"></div>
+        </div>
+
+        <!-- Post content + Sharing -->
+        <section class="container mb-5 pt-4 pb-2 py-mg-4">
+            <div class="row gy-4">
+
+                <!-- Content -->
+                <div class="col-lg-9">
+                    <h2 class="h4">Plemenitenje ali plenjenje slovenskih vlagateljev?</h2>
+                    <h3 class="h5 mb-4 pb-2 fw-medium">Velika večina (99%) tistih, ki boste trgovali na kratek čas boste
+                        izgubili denar vendar boste s svojim denarjem obogatili goljufe.</h3>
+                    <h3 class="h5 mb-4 pb-2 fw-medium">Vsi tisti, ki boste pravilno vložili denar za 15 let in dlje
+                        boste obogateli, vendar za finačno industrijo zaradi nizkih stroškov ne bo ostalo dosti.</h3>
+                    <h3 class="h5 mb-4 pb-2 fw-medium">Odločitev je vaša: boste samodisciplinirano vlagali ali se boste
+                        prepustili impulzom? Finančna industrija bo naredila vse, da v vas prebudi impulze iger na
+                        srečo. Od vaših impulzov namreč živijo.</h3>
+
+                    <p class="mb-4 pb-2">Moder vlagatelj se ne sme odzivati na hrup, ki ga namerno ustvarja finančna
+                        industrija pač pa se mora obnašati tako kot junak Iliade Odisej ki se je dal privezati na jambor
+                        da bi se izognil uničenju. Lahko je poslušal privlačne pesmi siren vendar ni skočil v morje in
+                        utonil ker je pred tem ukazal posadki naj si z voskom zamaši ušesa - njega pa naj kljub njegovim
+                        protestom in joku pustijo privezanega na jambor.</p>
+
+                    <p class="mb-4 pb-2">Sirene antičnega sveta danes predstavljajo finančni »svetovalci« ki vam
+                        obljubljajo nemogoče zato da bi se polastili vašega kapitala.</p>
+
+                    <!-- Video -->
+                    <div class="gallery mb-4 pb-2" data-video="true">
+                        <a href="https://www.youtube.com/watch?v=AG2Z-BAm5kI"
+                            class="gallery-item video-item is-hovered rounded-3"
+                            data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                            <img src="assets/img/bizzio/thumbnail.png" alt="Video preview">
+                        </a>
+                        <h3 class="h5 mb-4 pb-2 fw-medium">Odysseus and the Sirens | A Timeless Tale of Self-Control
+                        </h3>
+                        <a
+                            href="https://www.linkedin.com/pulse/why-you-should-like-ulysses-stay-invested-during-times-robert-gardner">Why
+                            you should be like Ulysses and stay invested during turbulent times</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="container mt-5">    
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Sidebar -->
+                    <nav id="sidebar" class="bg-dark sticky-top vh-100">
+                        <div class="p-4">
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <a href="#povzetek" class="text-white fw-bold">Povzetek</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="#uvod" class="text-white fw-bold">Uvod</a>
+                                </li>
+                                <div class="accordion" id="faq">
+                                    <div class="mb-3">
+                                        <h2 class="accordion-header" id="q1-heading">
+                                            <button
+                                                class="accordion-button shadow-none collapsed bg-dark text-white p-0 fw-bold"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#q1"
+                                                aria-expanded="false" aria-controls="q1">
+                                                Praktični del
+                                            </button>
+                                        </h2>
+                                        <div id="q1" class="accordion-collapse collapse" aria-labelledby="q1-heading"
+                                            data-bs-parent="#faq">
+                                            <div class="accordion-body fs-sm p-0">
+                                                <ul>
+                                                    <li class="mb-1"><a href="#nacin-delovanja-slo-fin-inst"
+                                                            class="text-white">Način
+                                                            delovanja
+                                                            slovenskih finančnih
+                                                            institucij</a></li>
+                                                    <li class="mb-1"><a href="#primerjava-donosov"
+                                                            class="text-white">Primerjava
+                                                            donosov med
+                                                            slovenskimi aktivno
+                                                            vodenimi skladi in povprečjem</a></li>
+                                                    <li class="mb-1"><a href="#kako-se-otresemo-slo-pijavk"
+                                                            class="text-white">Kako
+                                                            se otresemo
+                                                            slovenskih pijavk</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h2 class="accordion-header" id="q2-heading">
+                                            <button
+                                                class="accordion-button shadow-none collapsed bg-dark text-white p-0 fw-bold"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#q2"
+                                                aria-expanded="false" aria-controls="q2">
+                                                Teoretični del
+                                            </button>
+                                        </h2>
+                                        <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2-heading"
+                                            data-bs-parent="#faq">
+                                            <div class="accordion-body fs-sm p-0">
+                                                <ul>
+                                                    <li class="mb-1"><a href="#financni-trgi"
+                                                            class="text-white">Finančni trgi</a>
+                                                    </li>
+                                                    <li class="mb-1"><a href="#financne-institucije"
+                                                            class="text-white">Finančne
+                                                            institucije</a></li>
+                                                    <li class="mb-1"><a href="#financni-instrumenti"
+                                                            class="text-white">Finančni
+                                                            instrumenti</a></li>
+                                                    <li class="mb-1"><a href="#vlaganje-v-druzbeno-odgovorna"
+                                                            class="text-white">Vlaganje
+                                                            v družbeno odgovorna podjetja</a></li>
+                                                    <li class="mb-1"><a href="#prebiranje-financnih-novic"
+                                                            class="text-white">Prebiranje
+                                                            finančnih novic</a></li>
+                                                    <li class="mb-1"><a href="#preucevanje-podjetij"
+                                                            class="text-white">Preučevanje
+                                                            podjetij v katera vlagate</a></li>
+                                                    <li class="mb-1"><a href="#prednosti-krovnih-skladov"
+                                                            class="text-white">Takoimenovane “prednosti” krovnih
+                                                            skladov</a>
+                                                    </li>
+                                                    <li class="mb-1"><a href="#obdavcitev-v-sloveniji"
+                                                            class="text-white">Obdavčitev
+                                                            v
+                                                            Sloveniji</a></li>
+                                                    <li class="mb-1"><a href="#prijava-trgovalnega-racuna"
+                                                            class="text-white">Prijava
+                                                            trgovalnega računa v tujini</a></li>
+                                                    <li class="mb-1"><a href="#tecaji-financnega-opismenjevanja"
+                                                            class="text-white">Tečaji finančnega opismenjevanja</a></li>
+                                                    <li class="mb-1"><a href="#zgodovinski-donosi"
+                                                            class="text-white">Zgodovinski
+                                                            donosi</a></li>
+                                                    <li class="mb-1"><a href="#rebalansiranje-portfelja"
+                                                            class="text-white">Rebalansiranje portfelja</a></li>
+                                                    <li class="mb-1"><a href="#vpliv-na-vrednost-delnic"
+                                                            class="text-white">Kaj
+                                                            vpliva na
+                                                            vrednost delnic</a></li>
+                                                    <li class="mb-1"><a href="#vpliv-stroskov" class="text-white">Vpliv
+                                                            stroškov</a>
+                                                    </li>
+                                                    <li class="mb-1"><a href="#razlika-vlaganja-eu-zda"
+                                                            class="text-white">Kakšna je
+                                                            razlika med vlaganjem v EU in ZDA?</a></li>
+                                                    <li class="mb-1"><a href="#kriptovalute"
+                                                            class="text-white">Kriptovalute</a></li>
+                                                    <li class="mb-1"><a href="#zlahtne-kovine"
+                                                            class="text-white">Žlahtne kovine</a>
+                                                    </li>
+                                                    <li class="mb-1"><a href="#vlaganje-v-nepremicnine"
+                                                            class="text-white">Vlaganje v
+                                                            nepremičnine</a></li>
+                                                    <li class="mb-1"><a href="#trgovanje-na-kratek-rok"
+                                                            class="text-white">Trgovanje
+                                                            na
+                                                            kratek rok (trading)</a></li>
+                                                    <li class="mb-1"><a href="#robert-rolih-njegovi-tecaji"
+                                                            class="text-white">Robert
+                                                            Rolih in njegovi tečaji</a></li>
+                                                    <li class="mb-1"><a href="#luka-gubo-njegovi-tecaji"
+                                                            class="text-white">Luka Gubo
+                                                            in
+                                                            njegovi tečaji</a></li>
+                                                    <li class="mb-1"><a href="#kontakt-financnih-institucij"
+                                                            class="text-white">Kadar
+                                                            kontaktirate uslužbence finančnih institucij</a></li>
+                                                    <li class="mb-1"><a href="#warren-buffet-sklad-sp500"
+                                                            class="text-white">Koliko
+                                                            bi
+                                                            imeli danes če bi poslušali Warrena Buffetta in vse
+                                                            premoženje
+                                                            vlagali v indeksni sklad SP500?</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-8">
+
+                    <!-- Main content -->
+
+                    <div class="container">
+                        <section id="povzetek">
+                            <h2>Povzetek</h2>
+                            <ol>
+                                <li class="mb-2">Investirati začnite čimprej (№1) da omogočite čudežu obrestno
+                                    obrestnega dobička
+                                    delo v vašo korist - najboljši trenutek je bil včeraj. Zavedajte pa se da je
+                                    največji sovražnik obrestno obrestnega dobička obrestno obrestni strošek
+                                    "plemeniteljev" premoženja (№2).</li>
+                                <li class="mb-2">Vlagajte v pasivne sklade, zlasti delniške; ko pa ste starejši in ko se
+                                    bodo
+                                    obrestne mere povrnile na povprečje zadnjih 100 let lahko tudi v obvezniške.
+                                    Individualne delnice so tvegane naložbe, individualne obveznice pa niso likvidne
+                                    pred iztekom pogodbe.</li>
+                                <li class="mb-2">Izogibajte se ponudbi Slovenskih finančnih institucij: prav vse Vam
+                                    bodo
+                                    zaračunavale enormne provizije za aktivno vodene in katastrofalno neuspešne sklade.
+                                    V Sloveniji se trenutno vlaga tako kot se je v ZDA pred pol stoletja in prej: takrat
+                                    je ameriška finančna industrija zaslužila ogromno na račun nekoč finančno nepismenih
+                                    ameriških vlagateljev. Otresite se slovenskih pijavk:
+                                    <ul>
+                                        <li>Namesto aktivno vodenih slovenskih skladov kupujte pasivne ameriške ETFe.
+                                        </li>
+                                        <li>Če je le možno uporabljajte online posrednike ki za posredovanje v povprečju
+                                            računajo 0.1%.</li>
+                                        <li>Ne kupujte “modrih” pokojnim pri Iliriki, naložbenih zavarovanj pri Finančni
+                                            Hiši ali pokojninskih zavarovanj
+                                            sklada obrtnikov in podjetnikov (SOP). Po nepotrebnem boste plačevali
+                                            astronomske stroške.</li>
+                                    </ul>
+                                </li>
+                                <li class="mb-2">Investirajte v pasivne ETFe ki reinvestirajo dividende: na ta način se
+                                    boste
+                                    izognili FURS-ovem 25% davku na dividende. Sklade držite vsaj 15 let in en dan: na
+                                    ta način se boste izognili davku na kapitalske dobičke.</li>
+                                <li class="mb-2">Seznam pasivnih ETFov ki so skladni z Evropsko zakonodajo (imajo oznako
+                                    UCITS) in ki
+                                    reinvestirajo dividende najdete <a
+                                        href="https://www.justetf.com/en/find-etf.html?groupField=index&distributionPolicy=distributionPolicy-accumulating&ls=any"
+                                        target="_blank">tukaj.</a>
+                                </li>
+                                <li class="mb-2">Finančnim “svetovalcem” odklonite kakršnokoli pomoč. Nikoli ne bodo
+                                    delali v vašo korist ampak vedno le v korist firme ki jim daje službo. Trudili se
+                                    bodo da vas preusmerijo iz poceni finančnih instrumentov na ponudbo njihove hiše z
+                                    višjimi stroški: za to so plačani in izšolani. Vi niste pomembni, vi ste samo izvor
+                                    zaslužka.
+                                </li>
+                                <li class="mb-2">Zavedajte se da so gibanja delniških tečajev na kratek rok (10 let in
+                                    manj) naključna in zavisijo izključno od ponudbe in povpraševanja izobraženih in
+                                    tudi neizobraženih vlagateljev. Zato algoritmi ki naj bi napovedovali gibanja
+                                    tečajev ne obstajajo. Obstaja pa armada goljufov ki bi Vam ta neobstoječi produkt
+                                    zelo rada prodala (№3). Gibanje tečajev si najlažje ponazorimo z gibanjem psa na
+                                    zelo dolgem povodcu. Če vlagamo na dolgi rok (15 let in več) vemo kje bomo pot
+                                    začeli in kje končali, nimamo pa pojma kam bo pes med potjo zavijal.
+                                </li>
+                                <li class="mb-2">Ne spremljajte finančnih novic ki so popolna izguba časa. Kar se je
+                                    zgodilo danes je brezpredmetno: vsaka novica se v par sekundah inkorporira v
+                                    vrednost finančnih instrumentov. Edino kar bi bilo uporabno je to da bi vi - in
+                                    nihče drug - vedeli kaj se bo zgodilo v prihodnosti in tudi kako bodo ljudje takrat
+                                    čustveno reagirali na prav te novice. Za kaj takega pa bi rabili povezavo z bogom,
+                                    ne s finančnimi novicami. Če slovenski finančni “strokovnjaki” ki pišejo borzne
+                                    komentarje sami ne dosegajo povprečja, zakaj menite da bo branje njihovih nebuloz
+                                    koristilo Vam?
+                                </li>
+                                <li class="mb-2">
+                                    <p>
+                                        Ko se odločite v kateri pasivni ETF boste vlagali vlagajte vanj
+                                        kadarkoli morete. Če imaste reden dotok denarja vlagajte isto količino v rednih
+                                        intervalih (cost averaging). Ne ugibajte kaj se bo zgodilo: ne čakajte na vrhove
+                                        da
+                                        bi prodali ali padce da bi kupili. Edina izjema so tisti katerim bog redno
+                                        sporoča
+                                        gibanja tečajev za vsaj 10 let vnaprej. Kadar se poslužujete sistema “cost
+                                        averaging”, kupujete večje število ETFof ko so cenejsi, in manjše ko so dražji.
+                                    </p>
+
+                                    <p>
+                                        Če upoštevamo podatke zadnjih 50. let vidimo da so malenkostno višje donose
+                                        imeli
+                                        tisti ki so vlagali denar enkrat letno na začetku leta v primerjavi z onimi ki
+                                        so
+                                        vlagali vsak mesec ali vsake tri mesece (№26).
+                                    </p>
+
+                                    <p>
+                                        Res je da pri prehodih med podskladi krovnega sklada ne boste plačali davkov,
+                                        vendar
+                                        od teh prehodov koristi ne bo. To pa zato ker nihče ne ve kateri podskladi bodo
+                                        v
+                                        bodoče bolj uspešni. Prehodi med podskladi krovnega sklada so le marketinška
+                                        poteza
+                                        brez vrednosti.
+                                    </p>
+                                </li>
+                                <li class="mb-2">Če pride do padca na svetovnih borzah ne bežite pač pa še naprej
+                                    vlagajte saj dobivate delnice s popustom.</li>
+                                <li class="mb-2">
+                                    <p>
+                                        Zavedajte se da v svetu investiranja ne veljajo isti principi kot
+                                        drugod: v investiranju je namreč neaktivnost vrlina. Če želite imeti na stara
+                                        leta
+                                        denar mora biti investiranje tako razburljivo kot je sušenje barve (№4). To pa
+                                        zato
+                                        ker so gibanja tečajev na kratek čas (10 let ali manj) povsem nepredvidljiva in
+                                        naključna. Nihče, še najmanj pa Vaš finančni "svetovalec", ne ve kaj se bo
+                                        dogajalo
+                                        jutri niti v naslednjih par letih. Če bi to vedel bi zelo hitro postal
+                                        najbogatejši
+                                        zemljan in se ne bi ukvarjal z Vami. Edino kar imamo je precej velika verjetnost
+                                        da
+                                        se bodo vrednosti delnic še naprej gibale podobno kot se gibljejo od ustanovitve
+                                        prve borze leta 1602. To pa pomeni da bodo velika draga Ameriška podjetja letno
+                                        dajala v povprečju 10%, mala poceni podjetja 14%, letna inflacija pa bo na dolgi
+                                        rok
+                                        med 2 in 3%. (Podjetja izven ZDA so v zadnjih 100. letih imela za približno 2%
+                                        manjše letne donose !!!)
+                                    </p>
+
+                                    <p>
+                                        Najboljši dokaz da je v investiranju neaktivnost vrlina sta:
+                                    <ul>
+                                        <li>študija borzne hiše Fidelity ki je razkrila da so najvišje donose imeli prav
+                                            tisti vlagatelji ki niso bili aktivni: ti ki so
+                                            pozabili da imajo borzni račun in zlasti tisti ki so umrli (№5, №6).</li>
+                                        <li>rezultati stave Warrena Buffeta ki je primerjal donose najbolj aktivnih
+                                            Hedge skladov s povprečnimi donosi 500
+                                            največjih ameriških podjetij. Po 10. letih so imeli superaktivni Hedgi 3.88
+                                            krat manjše donose kot pasivni sklad
+                                            SP500. Prav ste prebrali: Hedgi so narasli 22%, SP500 pa 85.4%. (№7)</li>
+                                    </ul>
+                                    </p>
+                                </li>
+                                <li class="mb-2">Zavedajte se da finančni "eksperti" ne znajo vnaprej izbrati
+                                    uspešnejših delnic ali industrijskih panog. Prav tako ne znajo napovedati kako se
+                                    bodo gibali finančni trgi in obrestne mere. Ne plačujte jim odirajočih provizij za
+                                    blefiranje. V svetu investiranja namreč dobite to česar ne plačate. Manj ko boste
+                                    plačali "svetovalcem", več bo ostalo za Vas.</li>
+                                <li class="mb-2">Zavedajte se da vlagate v podjetja le takrat ko kupite delnice na prvi
+                                    javni ponudbi (IPO: initial public offering). Skladi skladno s pravili upravljanja
+                                    ne smejo kupovati delnic ki (še) ne kotirajo na borzi tako da lahko kupijo delnice
+                                    podjetja šele po izvedeni prvi javni ponudbi. Velika večina trgovanja (99.9%) se
+                                    dogaja na sekundarnem trgu: na borzi med kupci in prodajalci delnic in ne med kupci
+                                    delnic in podjetji ki s prodajo delnic financirajo svoje poslovanje. Kupovanje
+                                    skladov zelenih podjetij je zato nesmisel saj družbeno odgovorna podjetja od vaših
+                                    nakupov ne bodo imela nič.</li>
+                                <li class="mb-2">Trenutno je večina skladov v minusu. Ker plačate davek samo na dobiček
+                                    je ravno sedaj mogoče najboljši čas da prodate izjemno drage in neuspešne slovenske
+                                    sklade ter presedlate na pasivne sklade z manjšimi stroški in posledično višjimi
+                                    donosi.</li>
+                                <li class="mb-2">
+                                    <p>
+                                        Letni stroški na prvi pogled izgledajo veliko manjši od davkov:
+                                        povprečni letni (upravljalski) stroški v Sloveniji znašajo 2.5%, davki na
+                                        kapitalski
+                                        dobiček v prvih petih letih pa “kar” 25%.
+                                    </p>
+                                    <p>Davki na kapitalski dobiček v prvih petih letih nikakor niso 10 krat večji od
+                                        upravljalskih stroškov. Davek se plača samo na razliko med nakupno in prodajno
+                                        ceno če sklad prodamo pred iztekom 15. let. Letni stroški pa se nasprotno
+                                        plačujejo konstantno in znašajo 2.5% celotne investirane vsote: to pomeni da pri
+                                        10% rasti znašajo 25% profita, pri 5% rasti 50% profita, pri 2.5% rasti 100%
+                                        profita. Tudi kadar je sklad v minusu boste plačevali finančnim “strokovnjakom”
+                                        2.5% celotne vrednosti portfelja in to vsako leto.</p>
+                                    <p>Zgornje številke veljajo samo za prvo leto, kasneje se delež dobička ki ga morate
+                                        plačati upravljalcem veča iz leta v leto zaradi čudeža obrestno obrestnega
+                                        stroška. Po 40. letih vlaganja Vam bodo pri povprečnih upraviteljskih stroških
+                                        slovenski "plemenitelji" pobrali približno 70% celotne vrednosti portfelja,
+                                        pasivni ETFi kjer "plemeniteljev" ni pa 10 krat manj - torej 7%. (№19)</p>
+
+                                    <p>Kadar Vas borzni posrednik pokliče in razveseli z “izjemno priložnostjo
+                                        oprostitve vstopnih stroškov“ se zavedajte da so slednji le majhen delež vseh
+                                        stroškov: glavno breme predstavljajo letni upravljalski stroški in ne vstopni
+                                        stroški.</p>
+                                </li>
+                                <li class="mb-2">Slovenske borzne hiše imajo prav: najboljši način da se premoženje
+                                    obvaruje pred inflacijo je vlaganje v vzajemne sklade. <span
+                                        class="text-bg-danger text-white">Vendar ne v slovenske aktivno
+                                        vodene sklade ki Vam bodo za svoje toksične produkte zaračunavali astronomske
+                                        provizije. Edino kar slovenske finančne institucije počnejo je aktiven prenos
+                                        denarja iz žepov
+                                        vlagateljev v žepe "plemeniteljev", drugega absolutno nič.
+                                    </span></li>
+                            </ol>
+                        </section>
+                        <section id="uvod">
+                            <h2>Uvod</h2>
+                            <h3 class="fs-4">Paradoksi življenja v Sloveniji:</h3>
+                            <ol>
+                                <li class="mb-2"><strong>DRAGE NEPREMIČNINE:</strong> Ko tujec obišče Slovenijo je
+                                    najprej
+                                    presenečen nad
+                                    urejenostjo okolja, lepoto narave ter čistočo. Mnogo tujcev se zato odloči da bi
+                                    poiskusili z življenjem v Sloveniji. Ko pa se zanimajo za nakup nepremičnin v večjih
+                                    Slovenskih krajih ali ob obali so izredno presenečeni nad visokimi cenami
+                                    primerljivimi z drugimi mnogo bogatejšimi državami. Ker Slovenci niso vešči vlaganja
+                                    v finančne instrumente vlagajo v nepremičnine in jim s tem dvigujejo ceno. Trenutna
+                                    vrednost nepremicnin v Sloveniji je 90 milijard Eurov, slovenski BDP za
+                                    primerjavo znaša 52 milijard EUR.</li>
+                                <li class="mb-2"><strong>VELIKI BANČNI DEPOZITI:</strong> V Slovenskih bankah trenutno
+                                    ob
+                                    ničelnih obrestih leži okrog 25 milijard EUR katere počasi a zanesljivo uničuje
+                                    inflacija.
+                                    Ker Slovenci niso vešči vlaganja v finančne instrumente, vlagajo denar v banko.
+                                    Trenutna
+                                    vrednost bančnih depozitov na pogled v Slovenskih bankah je 25 milijard EUR,
+                                    premoženja v
+                                    slovenskih vzajemnih skladih pa nekaj nad 4 milijarde EUR. Iz teh 4 milijard EUR
+                                    “mojstri
+                                    slovenskega finančnega parketa” ki drug drugemu podeljujejo nagrade za katastrofalno
+                                    slabe donose vsako leto posesajo okrog 120 milionov EUR in jih vtaknejo v lasten
+                                    žep.
+                                </li>
+                                <li class="mb-2"><strong>NEVZDRŽNOST POKOJNINSKEGA SISTEMA:</strong> Ker je rodnost v
+                                    Sloveniji nizka
+                                    se veča odstotek starejših ki prejemajo pokojnine in manjša delež mlajših ki
+                                    plačujejo v
+                                    pokojninski sklad. Pokojninski sistem kot smo ga poznali vse od druge svetovne vojne
+                                    naprej se bo prej kot slej sesedel. <strong>
+                                        Ker pa Slovenci niso vešči vlaganja v finančne
+                                        instrumente ne vlagajo denarja za starost.
+                                    </strong></li>
+                                <li class="mb-2">
+                                    <p>
+                                        <strong>PRIZANESLJIVO OBDAVČITEV FINANČNIH INSTRUMENTOV</strong> katero bi lahko
+                                        zavidala marsikatera kapitalistična država. Povedano na kratko: če slovenski
+                                        davčni
+                                        zavezanec drži delnice ali obveznice v vzajemnem skladu vsaj 15 let in en dan,
+                                        in če
+                                        uporabi sklad ki reinvestira dividende, ne bo FURSU nikoli plačal niti centa.
+                                        Slovenija
+                                        bo v tem primeru slovenskim davčnim zavezancem (ne pa tujcem) služila kot
+                                        najboljša
+                                        in
+                                        povsem legalna davčna oaza. <strong>
+                                            Ker pa Slovenci niso vešči vlaganja v finančne
+                                            instrumente
+                                            ne znajo izkoristiti blagohotne zakonodaje v svojo korist.
+                                        </strong>
+                                    </p>
+
+                                    <p>Vprašamo se lahko zakaj več Slovencev ne vlaga v sklade namesto v nepremičnine,
+                                        zakaj
+                                        puščajo denar na bančnih računih namesto da bi si s pametnim vlaganjem olajšali
+                                        starost? Kot povsod drugod se odgovor vsaj deloma skriva v preteklosti.</p>
+                                    <p>V Kraljevini Jugoslaviji je Ljubljanska Borza delovala med leti 1924-42. V
+                                        komunistični SFRJ smo imeli plansko gospodarstvo: trgi vrednostnih papirjev so
+                                        bili
+                                        takrat umazana beseda katere se je vsakdo izogibal - prav tako kot se danes vse
+                                        slovenske finančne institucije izogibajo besede pasivno investiranje. Borza v
+                                        Ljubljani je bila ponovno odprta šele 26. decembra 1989.</p>
+                                    <p>Ker ima investiranje v Sloveniji relativno kratko tradicijo - in je v primerjavi
+                                        z
+                                        ZDA slabo regulirano - so Slovenski vlagatelji v preteklosti zelo pogosto bili
+                                        žrtve
+                                        najrazličnejših prevarantov in danes zaradi slabih izkušenj svoj denar težko
+                                        zaupajo
+                                        komerkoli.</p>
+                                    <p>Večina Slovencev je žal <strong>finančno nepismenih</strong> (posledica
+                                        komunizma) in
+                                        istočasno neizmerno <strong>naivnih</strong> (posledica majšinskega statusa
+                                        Slovencev v Avstroogrski, kraljevini SHS in kasneje komunistični Jugoslaviji).
+                                        Finančno nepismeni naivneži zato kot majni otroci razumevanje nadomestijo s
+                                        čustvi:
+                                        pri stiku s finančnimi “strokovnjaki” vlagatelji ki ne znajo in nočejo računati
+                                        padajo na krilatice, prijazne besede in obljube. Če bi jaz služila denar s
+                                        prodajo
+                                        vrednostnih papirjev ne bi želela da moje stranke karkoli vedo. Stranke ki ne
+                                        vedo
+                                        nič se da impresionirati z zaigrano prijaznostjo, lepo obleko, usnjenimi
+                                        naslonjači
+                                        in množico tabel ki jih nihče ne razume.</p>
+                                    <p>Tukaj se ne bi podrobneje spuščali v očitne goljufije kot jih vidimo spodaj in ki
+                                        vse
+                                        obljubljano fantastične in sigurne donose. Ko vlagatelj nakaže denar lahko na
+                                        zaslonu spremlja neizmerno rast vložka tako da vlaga vse več. Težave nastopijo
+                                        šele
+                                        takrat ko hoče vlagatelj sredstva dvigniti: takrat goljufi zahtevajo še več
+                                        denarja
+                                        za administrativne stroške. Ker vlagatelj noče izgubiti začetnega vložka na
+                                        začetku
+                                        običajno uboga, vendar se zahteve po dodatnih plačilih stopnjujejo. Ko vlagatelj
+                                        preneha pošiljati denar goljufi komunikacijo prekinejo.</p>
+
+                                    <p>Denar ki ga vlagatelj vidi na svojem računu ni nikoli obstajal, saj so tovrstni
+                                        računi lažni:
+                                    <ul>
+                                        <li class="mb-2"><a
+                                                href="https://siol.net/digisvet/nasveti/kaj-se-zgodi-ce-nasedete-tej-prevari-ki-izbira-za-zrtve-slovence-477120"
+                                                target="_blank">Kaj se zgodi, če nasedete tej prevari, ki izbira za
+                                                žrtve Slovence</a></li>
+                                        <li class="mb-2"><a
+                                                href="https://www.varninainternetu.si/ne-nasedajte-obljubam-o-bajnih-zasluzkih-na-kripto-trgovalnih-platformah/"
+                                                target="_blank">Investicijske prevare s kriptovalutuami
+                                            </a></li>
+                                        <li class="mb-2"><a
+                                                href="https://wallstreetmagazine.club/stellar_si/?rtkcid=61d322e03eb8670001274b33&rtkcmpid=604f2e3ac7eae60001b89268"
+                                                target="_blank">Na preprost način spremenite 100 evrov v 10.000 evrov in
+                                                celo 90.000 zahvaljujoč kriptovalutam</a></li>
+                                        <li class="mb-2"><a
+                                                href="https://www.24ur.com/novice/crna-kronika/mislec-da-vlaga-v-kriptovalute-prevarantom-nakazal-60000-evrov.html"
+                                                target="_blank">Misleč, da vlaga v kriptovalute, prevarantom nakazal
+                                                60.000 evrov</a></li>
+                                    </ul>
+                                    </p>
+                                    <p>V nadaljevanju se bomo posvetili legitimnim institucijam (Slovenskim borznim
+                                        hišam in zavarovalnicam), načinu njihovega delovanja ter razkrili kako Slovenski
+                                        davčni zavezanci lahko zaobidejo Slovenske parazite ter kupijo pasivne ETFe kjer
+                                        so vstopni in letni stroški od 10 do 100 krat nižji, donosi pa temu primerno
+                                        mnogo višji.</p>
+
+                                    <p>Za primerjavo navajam povprečne letne stroške (provizije za upravljanje) v %
+                                        vrednosti celotnega portfelja (№8):</p>
+
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Naziv</th>
+                                                <th scope="col">Provizije</th>
+                                                <th scope="col">Razpoložljivost</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>ameriški indeksni skladi in pasivni ETFi</td>
+                                                <td>0 do 0.20%</td>
+                                                <td>niso na voljo slovenskim rezidentom</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>evropski pasivni ETFi (UCITS)</td>
+                                                <td>0.03 do 0.40%</td>
+                                                <td>so na voljo slovenskim rezidentom, vendar finančna
+                                                    industrija o njih vztrajno molči</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>slovenski indeksni skladi in pasivni ETFi</td>
+                                                <td>ne obstajajo</td>
+                                                <td>niso na voljo slovenskim rezidentom</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>ameriski aktivno vodeni skladi</td>
+                                                <td>0.67%</td>
+                                                <td>niso na voljo slovenskim rezidentom</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>slovenski aktivno vodeni skladi</td>
+                                                <td>2.5%</td>
+                                                <td>so na voljo slovenskim rezidentom in jih finančna
+                                                    industrija agresivno oglašuje</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+                            </ol>
+                        </section>
+                        <section id="prakticni-del">
+                            <h2>Praktični del</h2>
+                            <h3 class="fs-4" id="nacin-delovanja-slo-fin-inst">Slovenske finančne institucije: način
+                                delovanja</h3>
+                            <p>Slovenske institucije nas venomer prepričujejo o pomembnosti “strokovnega” vodenja
+                                portfeljev. Pravijo da bodo donosi večji če bomo denar zaupali njihovim “strokovnjakom”
+                                in ne naklučju. Govorijo da se ne smemo zadovoljevati s poprečjem ker naj bi njihovi
+                                “svetovalci” pravilno vnaprej in pred drugimi predvidevali katere delnice bodo bolj
+                                uspešne ter jih dodajali v portfelj. Prav tako bodo namesto boga prav oni pravilno
+                                predvidevali bodoče dogodke in tudi to kako bodo ti dogodki vplivali na finančne trge: v
+                                slučaju padanja bodo delnice pravočasno zamenjali z gotovino in obratno.</p>
+
+                            <p>Zato bomo donose <span class="text-danger">
+                                    aktivno vodenih skladov nad katerimi “bdijo mojstri slovenskega
+                                    finančnega parketa”
+                                </span> primerjali s povprečnimi donosi, torej donosi <strong>
+                                    pasivno vodenih
+                                    skladov nad katerimi ne bdi nihče.</strong></p>
+
+                            <p>Spodaj si lahko ogledate »dodatno vrednost
+                                strokovnega plemenitenja premoženja« v rdečem:</p>
+
+                            <p>Zakon ki ureja področje vzajemnih skladov v Sloveniji je Zakon o
+                                investicijskih skladih
+                                in družbah za upravljanje (ZISDU-3). Slednji veleva da morajo biti VEPi (vrednosti enote
+                                premoženja) javno objavljeni ter vsakodnevno posodobljeni (izjema so konci tedna in
+                                prazniki).</p>
+                            <h3 class="fs-5" id="primerjava-donosov">ČLANICE ZDRUŽENJA DRUŽB ZA UPRAVLJANJE
+                                INVESTICIJSKIH SKLADOV (№9):</h3>
+                            <p>Če bi ob vstopnem datumu vlozili 1 tisoč EUR, bi 30. decembra 2022 imeli:
+                                (V oklepajih je vsota po odbitju vstopnih in izstopnih stroškov, za pasivni sklad 0.2%,
+                                za slovenski aktivni sklad približno 15 do 20 krat več)</p>
+                            <table class="table table-striped mb-5">
+                                <h4 class="fs-6 mb-1">SKLADI NLB (Tržni delež 37.25% = 1.6 MILIJARDE EUR, december 2021,
+                                    vir
+                                    ZDU GIZ)</h4>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Naziv</th>
+                                        <th scope="col">Vstopni datum</th>
+                                        <th scope="col">Aktivni sklad oplemeniteni</th>
+                                        <th scope="col">Pasivni sklad povprečje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Globalni sklad</td>
+                                        <td>25-09-2009</td>
+                                        <td>2039 EUR (1957 EUR)</td>
+                                        <td>4102 EUR (4093 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Azija</td>
+                                        <td>12-11-2009</td>
+                                        <td>1554 EUR (1422 EUR)</td>
+                                        <td>2577 EUR (2572 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>ZDA</td>
+                                        <td>25-11-2013</td>
+                                        <td>2364 EUR (2304 EUR)</td>
+                                        <td>3112 EUR (3106 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Farmacija in zdravstvo</td>
+                                        <td>04-01-2010</td>
+                                        <td>3331 EUR (3198 EUR)</td>
+                                        <td>6788 EUR (6775 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Visoka tehnologija</td>
+                                        <td>26-01-2010</td>
+                                        <td>4456 EUR (4277 EUR)</td>
+                                        <td>8628 EUR (8611 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Nepremičnine</td>
+                                        <td>25-11-2013</td>
+                                        <td>1345 EUR (1292 EUR)</td>
+                                        <td>1647 EUR (1644 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Obveznice visokih donosov</td>
+                                        <td>25-11-2013</td>
+                                        <td>1188 EUR (1140 EUR)</td>
+                                        <td>1571 EUR (1568 EUR)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-striped mb-5">
+                                <h4 class="fs-6 mb-1">TRIGLAVSKI SKLADI (Tržni delež 31.76% = 1.37 MILIJARDE EUR,
+                                    december
+                                    2021, vir ZDU GIZ)</h4>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Naziv</th>
+                                        <th scope="col">Vstopni datum</th>
+                                        <th scope="col">Aktivni sklad oplemeniteni</th>
+                                        <th scope="col">Pasivni sklad povprečje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Globalni sklad</td>
+                                        <td>02-11-2012</td>
+                                        <td>2371 EUR (2300 EUR)</td>
+                                        <td>2920 EUR (2915 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Tehnologija</td>
+                                        <td>22-06-2020</td>
+                                        <td>960 EUR (931 EUR)</td>
+                                        <td>1166 EUR (1158 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Azija</td>
+                                        <td>06-10-2006</td>
+                                        <td>1327 EUR (1287 EUR)</td>
+                                        <td>2345 EUR (2340 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Vzhajajoči trgi</td>
+                                        <td>22-06-2006</td>
+                                        <td>1210 EUR (1173 EUR)</td>
+                                        <td>2227 EUR (2223 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>ZDA</td>
+                                        <td>05-06-2006</td>
+                                        <td>2628 EUR (2549 EUR)</td>
+                                        <td>4636 EUR (4627 EUR)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-striped mb-5">
+                                <h4 class="fs-6 mb-1">GENERALI INVESTMENT (Tržni delež 16.44% = 0.71 MILIJARDE EUR,
+                                    december
+                                    2021, vir ZDU GIZ)</h4>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Naziv</th>
+                                        <th scope="col">Vstopni datum</th>
+                                        <th scope="col">Aktivni sklad oplemeniteni</th>
+                                        <th scope="col">Pasivni sklad povprečje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>ZDA</td>
+                                        <td>18-04-2016</td>
+                                        <td>1830 EUR (1775 EUR)</td>
+                                        <td>2153 EUR (2148 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Globalni</td>
+                                        <td>12-04-2011</td>
+                                        <td>1525 EUR (1479 EUR)</td>
+                                        <td>3322 EUR (3315 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Vzhajajoči trgi</td>
+                                        <td>14-03-2006</td>
+                                        <td>1664 EUR (1614 EUR)</td>
+                                        <td>1974 EUR (1970 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Tehnologija</td>
+                                        <td>26-06-2006</td>
+                                        <td>4357 EUR (4226 EUR)</td>
+                                        <td>8923 EUR (8906 EUR)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-striped mb-5">
+                                <h4 class="fs-6 mb-1">SAVA INFOND (Tržni delež 13.21% = 0.57 MILIJARDE EUR, december
+                                    2021,
+                                    vir ZDU GIZ)</h4>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Naziv</th>
+                                        <th scope="col">Vstopni datum</th>
+                                        <th scope="col">Aktivni sklad oplemeniteni</th>
+                                        <th scope="col">Pasivni sklad povprečje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Globalni</td>
+                                        <td>25-09-2009</td>
+                                        <td>1681 EUR (1631 EUR)</td>
+                                        <td>4173 EUR (4165 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>ZDA</td>
+                                        <td>04-06-2007</td>
+                                        <td>2429 EUR (2356 EUR)</td>
+                                        <td>4014 EUR (4006 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Vzhajajoči trgi</td>
+                                        <td>03-10-2005</td>
+                                        <td>1837 EUR (1782 EUR)</td>
+                                        <td>2349 EUR (2335 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Tehnologija</td>
+                                        <td>01-10-2007</td>
+                                        <td>3504 EUR (3405 EUR)</td>
+                                        <td>7468 EUR (7454 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Zdravstvo</td>
+                                        <td>04-06-2010</td>
+                                        <td>3568 EUR (3461 EUR)</td>
+                                        <td>6324 EUR (6311 EUR)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-striped mb-5">
+                                <h4 class="fs-6 mb-1">PRIMORSKI SKLADI (Tržni delež 1.34% = 0.057 MILIJARDE EUR,
+                                    december
+                                    2021, vir ZDU GIZ)</h4>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Naziv</th>
+                                        <th scope="col">Vstopni datum</th>
+                                        <th scope="col">Aktivni sklad oplemeniteni</th>
+                                        <th scope="col">Pasivni sklad povprečje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Modra linija</td>
+                                        <td>17-01-2018</td>
+                                        <td>1075 EUR (1039 EUR)</td>
+                                        <td>1697 EUR (1694 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Živa</td>
+                                        <td>17-01-2018</td>
+                                        <td>1154 EUR (1146 EUR)</td>
+                                        <td>1697 EUR (1694 EUR)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Quant</td>
+                                        <td>23-04-2014</td>
+                                        <td>1112 EUR (1068 EUR)</td>
+                                        <td>2005 EUR (2001 EUR)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-striped mb-5">
+                                <h4 class="fs-6 mb-1">OSTALE FINANČNE INŠTITUCIJE</h4>
+                                <p>№10 in №11: ob vstopnem datumu bi investirali 1000 EUR</p>
+                                <p>№12: vsak mesec bi v obdobju 10. ali 15. let investirali 300 EUR (ob neplačevanju
+                                    vsak mesec bi bil znesek zaradi dodatnih stroškov veliko manjši)</p>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Naziv</th>
+                                        <th scope="col">Vstopni datum</th>
+                                        <th scope="col">Izstopni datum</th>
+                                        <th scope="col">Oplemeniteno premoženje</th>
+                                        <th scope="col">Povprečje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Modra pokojnina (№10)</td>
+                                        <td>25-09-2009</td>
+                                        <td>30-06-2022</td>
+                                        <td>3361 EUR</td>
+                                        <td>4089 EUR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SOP (№11)</td>
+                                        <td>30-04-2017</td>
+                                        <td>30-04-2022</td>
+                                        <td>1484 EUR</td>
+                                        <td>1682 EUR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Finačna hiša (№12)</td>
+                                        <td>20-04-2012</td>
+                                        <td>20-04-2022</td>
+                                        <td>62,817.60 EUR</td>
+                                        <td>73,690.94 EUR (po odbitih davkih)</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>124 EUR mesečna renta (neprilagojena inflaciji)</td>
+                                        <td>153 EUR mesečna renta (prilagojena inflaciji)</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>20-04-2007</td>
+                                        <td>20-04-2022</td>
+                                        <td>90,651.00 EUR</td>
+                                        <td>112,375.00 EUR (po odbitih davkih)</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>188 EUR mesečna renta (neprilagojena inflaciji)</td>
+                                        <td>270 EUR mesečna renta (prilagojena inflaciji)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h3 class="fs-4" id="kako-se-otresemo-slo-pijavk">Kako se otresti slovenskih (in drugih)
+                                pijavk?</h3>
+                            <h4 class="fs-6">Ne kupujte nobenih finančnih produktov narejenih v Sloveniji!</h4>
+                            <h4 class="fs-6">Ne kupujte nobenih hibridnih produktov (kombinacij investiranj in
+                                zavarovanj) narejenih kjerkoli!</h4>
+                            <p>Kot smo videli so prav vsi finančni produkti narejeni v naši domovini izredno dragi in
+                                katastrofalno neuspešni. Razlika med donosi slovenskih aktivnih skladov in pasivnih
+                                ETFov je zlasti očitna pri starejših produktih kjer je obrestno obrestni strošek
+                                “plemeniteljev” zaradi daljšega časovnega obdobja lahko vlagateljem naredil več škode.
+                            </p>
+                            <p>Del vzroka tiči v dejstvu da so vsi v Sloveniji ustvarjeni skladi aktivno vodeni in zato
+                                obračunavajo izredno visoke provizije za "usluge" ki škodijo vlagateljem in dajejo kruh
+                                upravljalcem, del pa tudi v nesposobnosti managerjev. Slovenski aktivno upravljan sklad
+                                tudi nikoli ni 100% investiran, saj potrebuje sredstva za morebitna izplačila
+                                investitorjev: kadar se vrednosti delnic večajo (v 70% mesecev), slovenski aktivni sklad
+                                izgubi del dobička.</p>
+                            <p class="mb-0">Slovenija je članica EU in je kot taka zavezana nakupu le onih skladov ki
+                                imajo oznako UCITS:
+                            <ul>
+                                <li><a href="https://en.wikipedia.org/wiki/Undertakings_for_Collective_Investment_in_Transferable_Securities_Directive_2009"
+                                        target="_blank">Undertakings for Collective Investment in Transferable
+                                        Securities Directive 2009</a></li>
+                                <li><a href="https://www.bogleheads.org/wiki/EU_investing" target="_blank">EU
+                                        investing</a></li>
+                            </ul>
+                            </p>
+                            <p class="mb-0">Seznam slednjih najdemo tukaj:
+                            <ul>
+                                <li><a href="https://www.justetf.com/en/" target="_blank">www.justetf.com/en/</a></li>
+                                <li><a href="https://www.ucits-etfs.com/" target="_blank">www.ucits-etfs.com/</a></li>
+                            </ul>
+                            </p>
+                            <p class="mb-0">Če nočemo da bi nam FURS štirikrat na leto pobral 25% davka na dividende si
+                                izberemo tiste ETFe ki reinvestirajo dividende. Gre za takoimenovame accumulating ETFs:
+                            <ul>
+                                <li><a href="https://www.justetf.com/en/find-etf.html?groupField=index&distributionPolicy=distributionPolicy-accumulating&ls=any"
+                                        target="_blank">www.justetf.com/en/find-etf</a></li>
+                            </ul>
+                            </p>
+                            <p class="mb-0">Trenutno je na nemškem trgu blizu 1700 akumulirajočih ETFov. Tisti ki ne
+                                zaupajo ETFom ki temeljijo na pogodbi o zamenjavi (SWAP
+                                based, okrog 20% ETFov) lahko izbirajo med ETFi ki fizično replicirajo portfelj kar
+                                pomeni da imajo dejanske delnice (80% ETFov). ETFe ki temeljijo na SWAPih lahko izločite
+                                če pri levem stolpcu (replication method) odkljukate samo full replication in sampling
+                                ETFe:
+                            <ul>
+                                <li><a href="https://www.justetf.com/en/find-etf.html?groupField=index&distributionPolicy=distributionPolicy-accumulating&ls=any&replicationType=replicationType-full&replicationType=replicationType-sampling"
+                                        target="_blank">www.justetf.com/en/find-etf</a></li>
+                            </ul>
+                            Vsi ETFi ki jih omenjam na stranici ki jo pravkar berete vsebujejo dejanske delnice.
+                            </p>
+                            <p>Odločimo se za tisti sklad oziroma tisto kombinacijo skladov ki se najbolje prilega
+                                našemu profilu: mlajši naj izberejo agresivne produkte, starejši pa bolj konzervativne.
+                                Konzervativni produkti (obveznice) ob padcu trgov padejo občutno manj kot agresivni
+                                produkti (delnice). Starejši vlagatelji ki ob padcu že jemljejo sredstva iz portfelja
+                                bodo ob agresivnih produktih imeli večje izgube, zaradi starosti pa manj časa za čakanje
+                                da se trgi dvignejo na raven pred padcem.</p>
+                            <p>Bolj kot starost je važno kdaj bo vlagatelj začel iz oplemenitenega premoženja jemati
+                                denar. Običajno se to zgodi ob 65. letu ko večina odide v pokoj, ni pa nujno. Če bomo
+                                delali dalj, oziroma če imamo dovolj drugih sredstev za preživetje, je smotrno da
+                                pustimo denar v skladih dalj časa.</p>
+                            <p>Če imamo do začetka jemanja depozitov 15 let ali več je umestno biti karseda agresiven:
+                                ameriške delnice še nikoli od ustanovite ameriške borze leta 1792 niso imele niti enega
+                                15 letnega obdobja ko bi vrednost delnic bila ob koncu obdobja manjša kot ob začetku
+                                (№13). Portfelj naj zatorej ne vsebuje nobenih obveznic pač pa le delnice.</p>
+                            <p>V zadnjih 100. letih so imele najvišje donose ameriške delnice. Tisti ki menijo da se bo
+                                ta trend nadaljeval tudi v bodoče lahko vlagajo v pasivne ETFe izključno ameriških
+                                podjetij; tisti pa ki niso prepricani da bodo ZDA ohranile primat lahko izberejo
+                                globalne sklade:</p>
+                        </section>
+                        <section id="teoreticni-del">
+                            <h2>Teoretični del</h2>
+                            <h3 class="fs-4" id="financni-trgi">Finančni trgi</h3>
+                            <h4 class="fs-6">Zgodovina</h4>
+                            <p>Kadarkoli je človeštvo hotelo kaj ustvariti je potrebovalo začetni kapital. V
+                                sužnjelastništvu je vladajoči razred sužnje prisilil v delo, v komunizmu pa se je
+                                kapital črpal izključno iz davkov. V kasnem fevdalizmu in v kapitalizmu so ljudje na
+                                vrhu piramide izumili bolj sofisticirane metode pridobivanja kapitala: obveznice in
+                                delnice. Oboje danes individualni vlagatelji lahko kupijo na borzi s pomočjo posrednika
+                                borzne hiše.</p>
+                            <h3 class="fs-4" id="financne-institucije">Finančne institucije</h3>
+                            <p>BORZA (STOCK EXCHANGE) je institucija kjer teče trgovanje vrednostnih papirjev med
+                                prodajalci in nakupovalci. V ZDA so borze NYSE, NASDAQ, CHICAGO MERCANTILE EXCHANGE; v
+                                Sloveniji pa je to LJUBLJANSKA BORZA ki trguje z delnicami slovenskih podjetij.</p>
+                            <p>BORZNA HIŠA (BROKERAGE HOUSE) je institucija ki za kliente kupuje in prodaja vrednostne
+                                papirje na borzi. Gre torej za posrednika med borzo in individualnim investitorjem. V
+                                ZDA so najbolj znane borzne hise BLACK ROCK, VANGUARD, FIDELITY, CHARLES SCHWAB; v
+                                Sloveniji pa TRIGLAVSKI SKLADI, GENERALI, NLB SKLADI, SAVA INFOND, PRIMORSKI SKLADI ipd.
+                            </p>
+                            <h3 class="fs-4" id="financni-instrumenti">Finančni instrumenti</h3>
+                            <h4 class="fs-6 mb-0">Obveznice (Bonds)</h4>
+                            <p>V Italiji dvanajstega stoletja so se mesta često vojskovala med seboj za kar so
+                                potrebovala denar. Ker so se mestne oblasti bale da bodo dodatni davki vzpodbudili upor
+                                so si denar izposodili, meščanom pa so po preteku določenega časa obljubili povrnitev
+                                vsote z dodanimi obrestmi. Ker so se mesta obvezala da bodo denar vrnila so te finančne
+                                instrumente poimenovali obveznice. Denar so oblasti pridobile od meščanov na primarnem
+                                trgu, meščani pa so, če so hoteli, obveznice prodali še pred iztekom pogodbe na
+                                sekundarnem trgu. Če je kazalo da utegne mesto vojno izgubiti je cena obveznic na
+                                sekundarnem trgu močno padla. Tisti ki je tvegal in kupil obveznice po znižani ceni na
+                                sekundarnem trgu je ob nepričakovani zmagi bogato zaslužil, ob porazu pa izgubil vse.
+                                Kasneje so obveznice začele izdajati tudi privatna podjetja. Če podjetje propade, mora
+                                najprej izplačati lastnike obveznic in šele zatem lastnike delnic.</p>
+                            <h4 class="fs-6 mb-0">Delnice (Stocks = Equities)</h4>
+                            <p>V Amsterdamu je leta 1602 Dutch East India Company (Verenigde Oostindische Compagnie
+                                "VOC") potrebovala denar za vzpostavitev trgovanja z Indijo. Ker je bil posel izredno
+                                tvegan se je družba odločila da ne bo obljubila ničesar razen enakega deleža dobička ali
+                                izgube. Svoj finančni instrument je poimenovala delnica. Takoj po ustanovitvi je vsaka
+                                delnica redno izplačevala imetnikom delež dobička (dividende) ki je takrat v povprečju
+                                znašal 17 %. To pomeni da je lastnik delnice zgolj v 6. letih dobil povrnjen celoten
+                                vložek, kasneje pa se je dotok dividend nadaljeval še 198 let vse do leta 1799 ko je
+                                podjetje VOC prenehalo delovati. Prav tako kot obveznice je tudi delnice možno prodati
+                                na sekundarnem trgu. Kadar je dotok dividend soliden, cena delnic raste in obratno. V
+                                prvem primeru govorimo o kapitalskem dobičku, v drugem pa o kapitalski izgubi.</p>
+                            <h4 class="fs-6 mb-0">Vzajemni skladi (Mutual funds)</h4>
+                            <p>Gre za košarico instrumentov ki vsebujejo individualne finančne instrumente (delnice,
+                                obveznice, ostalo). Prvi moderni vzajemni sklad se je pojavil v ZDA leta 1924.</p>
+                            <p>Borzna hisa kupi na borzi delnice, obveznice, oboje, ali še kaj tretjega. Vse to ima v
+                                okvriru svojega vzajemca. Manager borzne hise (upravnik sklada) izbere finančne
+                                instrumente preudarno (aktivni skladi) ali naključno (pasivni skladi). Ko se borza zapre
+                                ob 16. uri v NYC (NYSE ali NASDAQ) oz Chicagu (Chicago mercantile exchange) borzna hiša
+                                preračuna vrednost sklada do približno 17. ure. Ta cena velja za vse tiste ki so s
+                                skladom trgovali pred 16. uro. Za one ki so sklad kupili ali prodali po 16. uri pa velja
+                                cena naslednjega delovnega dne (cena ki jo borzna hisa izračuna do priblizno 17. ure en
+                                delovni dan kasneje).</p>
+                            <p>Klient lahko v vzajemni sklad vloži katerokoli vsoto denarja ki presega minimalni nakup,
+                                nato borzna hisa preračuna vrednost vzajemca na 3 decimalke.</p>
+                            <p>V ZDA morajo vzajemci dividende izplačati investitorju, običajno 4 krat na leto, to pa
+                                zato da država od dividend lahko pobere davke. V Evropski Uniji (EU) je davkarija manj
+                                požrešna: vzajemci lahko dividende izplačujejo (distributing funds) in s tem prikličejo
+                                davkarijo, ali pa jih reinvestirajo (accumulating funds) in se na ta način izogneju
+                                plačilu davka na dividende.</p>
+                            <p>Ker z vzajemci trguje <b>borzna hiša</b> in ne borza, so vzajemni skladi na voljo <b>le
+                                    davčnim zavezancem</b> (rezidentom) države v kateri borzna hiša deluje.</p>
+                            <h4 class="fs-6 mb-0">Aktivni vzajemci (Actively managed mutual funds)</h4>
+                            <p>Imajo managerja ki naj bi iz vseh možnih finančnih instrumentov izbral tiste za katere
+                                predvideva da bodo v bodoče imeli višje donose. Prav tako manager del vrednosti vzjemca
+                                lahko pretvori v gotovino ali v obveznice kadar misli da bo trg padel. Ker aktivni
+                                managerji ne znajo napovedovati bodočnosti, na dolgi rok (10 let ali več) večina
+                                aktivnih skladov povsod po svetu, zlasti pa v Sloveniji, krepko zaostaja za pasivnimi
+                                skladi. Vsak aktivni sklad ima lahko odgovarjajoči ETF.</p>
+                            <h4 class="fs-6 mb-0">Pasivni vzajemci (Indeksni skladi = Index funds)</h4>
+                            <p>Nimajo aktivnega managerja pač pa vsebujejo večino delnic ali obveznic ki so na razpolago
+                                v okviru indeksa ki mu sledijo. Vsak pasivni sklad ima lahko odgovarjajoči ETF.</p>
+                            <h4 class="fs-6">Najbolj znani so sledeči indeksi:</h4>
+                            <h4 class="fs-6 mb-0">Združene države Amerike:</h4>
+                            <ul>
+                                <li><a href="https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+                                        target="_blank">Dow Jones (DJ)</a> vsebuje delnice 30. največjih in najboljših
+                                    podjetih ZDA.</li>
+                                <li><a href="https://en.wikipedia.org/wiki/S%26P_500" target="_blank">Standard and
+                                        Poor's 500 (SP500)</a> vsebuje delnice 500. največjih in najboljših podjetih ZDA
+                                    (torej vsebuje tudi vse delnice indeksa DJ).</li>
+                                <li><a href="https://en.wikipedia.org/wiki/Wilshire_5000" target="_blank">Wilshire
+                                        5000</a> vsebuje približno polovico vseh ameriških delnic, torej vsebuje tudi
+                                    vse ali vsaj večino delnic indeksov DJ in SP500. Trenutno vsebuje nekaj manj kot
+                                    štiri tisoč delnic.</li>
+                                <li><a href="https://en.wikipedia.org/wiki/Russell_3000_Index" target="_blank">Russell
+                                        3000</a> prav tako kot Wilshire 5000 vsebuje malo manj kot polovico delnic
+                                    ameriških podjetij, torej vsebuje tudi vse ali vsaj večino delnic indeksov DJ in
+                                    SP500. Sklad vsebuje tri tisoč delnic.</li>
+                                <li><a href="https://en.wikipedia.org/wiki/Russell_2000_Index" target="_blank">Russell
+                                        2000</a> vsebuje 2000 manjših podjetij iz indeksa Russell 3000.</li>
+                            </ul>
+                            <h4 class="fs-6 mb-0">Nemčija:</h4>
+                            <ul>
+                                <li><a href="https://en.wikipedia.org/wiki/DAX" target="_blank">DAX</a> vsebuje 40
+                                    najboljšh nemških delnic (je nemški ekvivalent ameriškega indeksa DJ).</li>
+                            </ul>
+                            <h4 class="fs-6 mb-0">Velika Britanija:</h4>
+                            <ul>
+                                <li><a href="https://en.wikipedia.org/wiki/FTSE_Group" target="_blank">FTSE Group</a> je
+                                    indeks Britanskih delnic.</li>
+                            </ul>
+                            <h4 class="fs-6 mb-0">Japonska:</h4>
+                            <ul>
+                                <li><a href="https://en.wikipedia.org/wiki/Nikkei_225" target="_blank">NIKKEI 225</a>
+                                    vsebuje 225 največjih japonskih delnic.</li>
+                            </ul>
+
+                            <h4 class="fs-6 mb-0">So aktivno vodeni skladi povsod po svetu manj uspešni od pasivnih
+                                skladov?</h4>
+                            <p>Povsod po svetu je temu tako, je pa to mnogo bolj izraženo v Sloveniji. V naši domovini
+                                so provizije aktivnih skladov v povprečju štirikrat višje kot v tujini zato ker smo
+                                Slovenci bolj naivni in manj finančno pismeni. Zato smo pripravljeni plačevati
+                                astronomske vsote denarja prodajalcem ki sami sebe imenujejo “svetovalci” in ki drug
+                                drugemu delijo nagrade za neuspešne produkte (№14).</p>
+
+                            <p>Podatki za ZDA so skoraj identični s podatki za EU: (Benchmark je povprečje donosov ki ga
+                                ponazarja indeks, slednjemu sledi indeksni sklad v ZDA in pasivni ETF v EU).</p>
+                            <div class="my-4">
+                                <img src="/assets/img/bizzio/01-aktivno-vodeni-skladi.jpg">
+                                <a href="https://www.wsj.com/articles/indexes-beat-stock-pickers-even-over-15-years-1492039859"
+                                    target="_blank">https://www.wsj.com/articles/indexes-beat-stock-pickers-even-over-15-years-1492039859</a>
+                                <a href="https://www.investopedia.com/terms/b/benchmark.asp"
+                                    target="_blank">https://www.investopedia.com/terms/b/benchmark.asp</a>
+                                <img src="/assets/img/bizzio/02-aktivno-vodeni-skladi.png">
+                                <a href="https://www.spglobal.com/spdji/en/documents/spiva/spiva-europe-year-end-2015.pdf"
+                                    target="_blank">https://www.spglobal.com/spdji/en/documents/spiva/spiva-europe-year-end-2015.pdf</a>
+                            </div>
+                            <h4 class="fs-6 mb-0">Zakaj aktivno investiranje škoduje vlagateljem in koristi finančni
+                                industriji?</h4>
+                            <p>Zato ker drugače biti ne more.</p>
+                            <p><b>Prvič:</b> Predstavljajte si dve skupini vlagateljev:
+                            <ul>
+                                <li>neaktivne lenobe</li>
+                                <li>hiperaktivne borce</li>
+                            </ul>
+                            Lenobe kupijo polovico vseh delnic, hiperaktivni borci prav tako. Lenobe ne bodo storile
+                            nič, borci pa bodo najeli najboljše upravitelje kar jih premore svet da bi iz svoje polovice
+                            iztisnili čim več.</p>
+                            <p class="fw-bold">Katera skupina bo pa v prihodnosti imela več?</p>
+                            <p>Sliši se čudno vendar bodo lenobe imele mnogo višje donose od borcev.</p>
+                            <p>Obe skupini bosta ohranili isto število enakih delnic torej bosta po preteku katerikolega
+                                obdobja imeli do centa enako količino kapitala. Edina razlika med obema skupinama je v
+                                tem da prva ne bo plačevala “upravljalskih” stroškov, druga pa jih bo. In zakaj finančna
+                                industrija tega ljudem ne pove? Zato ker v skupini neaktivnih lenob ne bo zaslužila
+                                (skoraj) nič. Zaradi tega “plemenitelji” premoženja redno pišejo borzne komentarje in si
+                                izmišljajo na videz “nove” finančne produkte katerih edini namem je to da bi iz Vas
+                                iztisnili čim več za “usluge” ki jih Vi ne potrebujete.</p>
+
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=xp9KUCel778"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/warren-buffett-exposes-hedgefunds.jpg"
+                                        alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Warren Buffett Exposes Hedgefunds
+                                </h3>
+                            </div>
+
+                            <p><b>Drugič:</b> Za vsakega kupca delnic obstaja prodajalec, in za vsakega prodajalca
+                                obstaja kupec. Tako kupec kot prodajalec vstopata v posel z izključnim namenom da bi
+                                zaslužila.</p>
+                            <p>Večina (90%) vseh transakcij največjih svetovnih borz izvedejo profesionalni trgovalci
+                                (institutional traders), ki s svojimi nakupi in prodajami med vsako sekundo trgovanja
+                                določijo ceno ki odraža vse informacije tistega trenutka. Zaradi napredka tehnologije
+                                cene vrednostnih papirjev (delnic, obveznic in derivativov) zadnjih 20. let zelo dobro
+                                odsevajo najbolj realno ceno. Zato ima vsak vrednostni papir ki trguje na borzi vsak
+                                trenutek isto možnost dobička ali izgube kot celoten indeks v katerem se giblje.</p>
+                            <p>Analitiki Wall Streeta so zaradi znanja, dostopa do informacij in najboljše tehnologije v
+                                veliki prednosti pred Vami in pred slovenskimi upravniki skladov. Trudite se kolikor
+                                hočete, z njimi nikoli ne boste mogli tekmovati. Tudi dve največji legendi Wall Streeta
+                                Warren Buffett in William Danoff zadnjih 15 let nimasta večjih donosov kot SP500 (№ 25).
+                            </p>
+                            <p>Možno je da bo v naslednjih 20. letih vzšla nova legenda ki bo imela boljše donose od
+                                povprečja, vendar je danes nemogoče napovedati kdo bo ta človek. Pa četudi bi to danes
+                                vedeli, davkoplačevalci Evropske Unije ne morejo kupiti ameriških vzajemnih skladov,
+                                lahko kupijo samo ETFe ki sledijo tem skladom. Velika večina aktivnih vzajemnih skladov
+                                pa nima odgovarjajočega ETFa in je zato nedostopna davkoplačevalcem izven ZDA.</p>
+                            <p>S tem ko slovenski aktivni upravitelji stavijo katere delnice bodo v prihodnje
+                                najdonosnejše pravijo da znajo pred profesionalnimi investitorji Wall Streeta odkriti
+                                podcenjene naložbe.</p>
+                            <p>V ZDA trguje stotisoče profesionalcev. Imajo mogoče slovenski upravitelji dostop do
+                                informacijih ki so nedostopne Wall Streetu? Jim ameriška Fed vnaprej in pred vsemi
+                                drugimi sporoča bodoče obrestne mere tako da se lahko Slovenci pripravijo prvi? Imajo
+                                slovenski upravitelji boljše računalnike, boljše kristalne krogle ali kar direktno
+                                telefonsko povezavo z Bogom? Kaj je torej tisto kar imajo slovenski upravitelji in česar
+                                Wall Street nima da lahko zaračunavajo 4 krat višje letne stroške od ameriških aktivnih
+                                skladov in 30 krat višje stroske od pasivnih skladov?</p>
+                            <p class="text-bg-danger text-white">Tisto kar imajo so slovenski vlagatelji ki so zaradi
+                                finančne nepismenosti in neizmerne naivnosti pripravljeni plačevati astronomske
+                                provizije za produkte za katere niti ne vedo da so neuspešni. Le zakaj bi slovenski
+                                upravniki znižali stroške na povprečje razvitega sveta, če pa so jih slovenski
+                                vlagatelji pripravljeni plačevati?</p>
+                            <p>Namesto da se vtikate v delo analitikov Wall Streeta, se jim zahvalite za trud in kupite
+                                košarice delnic ki imajo nizke stroške: to so indeksni skladi v ZDA oziroma pasivni
+                                akumulirajoči ETFi v EU. Predstavljajte si analitike Wall Streeta kot kirurga ki bo
+                                operiral člana vase družine.</p>
+                            <p>Bi dovolili nekomu ki bere revijo Moje Zdravje da se vmešava v potek operacije?</p>
+                            <p>Pasivno investiranje (ki ima po vseh statističnih podatkih veliko višje donose od
+                                aktivnega) je pasivno le v tem da se Vi ne vmešavate v delo onih ki se najbolje spoznajo
+                                na ocenjevanje vrednosti delnic. <b>Aktivnost prepustite stotisočim analitikom Wall
+                                    Street-a, vi pa zgolj pasivno vlagajte. Ignorirajte hrup ki ga namenoma ustvarjajo
+                                    prodajalci aktivno vodenih skladov (finančna industrija).</b></p>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=Kh5x9Tz7R7I"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/why-cant-managers-beat-market.jpg" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Indexing: Why Can't Money Managers Beat The Market?
+                                    Charles Ellis Explains
+                                </h3>
+                            </div>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=fUpoK2ZOFWc"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/index-revolution.jpg" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Ellis: Index Revolution</h3>
+                            </div>
+                            <h4 class="fs-6 mb-0">Exchange Traded Fund = ETF (Kotirajoči Investicijski Skladi)</h4>
+                            <p>Gre za vzajemni sklad, aktivni ali pasivni, ki se kupi in proda tako kot individualna
+                                delnica: na borzi med 9.30 in 16. uro NY time oz Chicago time. Prvi ETF se je pojavil
+                                leta 1989. Takrat so bili računalniki že dovolj močni da so lahko izračunali vrednost
+                                sklada za vsako sekundo posebej.</p>
+                            <p>Klient lahko v ETF vloži katerokoli vsoto ki je enaka vrednost 1 ali več ETFov, običajno
+                                pa ne more kupiti dela enega ETFa: kupi lahko ali 4 ali 5 ETFov, običajno pa ne pa 4.521
+                                ETFa kot to lahko stori z vzajemci.</p>
+                            <p>Ker z ETFi trguje <b>borza</b> in ne borzna hiša so ETFi na voljo <b>kupcem vsega
+                                    sveta</b> oziroma tistim katerih posrednik kupuje ETFe direktno na borzi. Ameriški
+                                ETFi so na voljo Slovenskim drzavljanom ki jih lahko kupijo preko on line posrednikov
+                                kot Optimtrader ali s pomočjo slovenskih bank in borznih hiš. Slovenske banke in borzne
+                                hiše imajo veliko višje provizije.</p>
+                            <p>Kupci dobijo ETF po trenutni ceni med trgovanjem borze (9.30 do 16 ure, NY time). Če
+                                klienti kupijo ali prodajo ETF po 16. uri, ga bodo kupili ali prodali po ceni ki bo na
+                                voljo ob odprtju borze (ob 9.30) naslednjega delovnega dne.</p>
+
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">ETH, delnice</th>
+                                        <th scope="col">Skladi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Odprta borza</th>
+                                        <td>Trenutna cena</td>
+                                        <td>Cena izračunana okrog 17. ure istega dne</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Zaprta borza</th>
+                                        <td>Cena ob odprtju borze naslednjega dne</td>
+                                        <td>Cena izračunana okrog 17. ure naslednjega dne</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Letni stroški</th>
+                                        <td>Minimalni</td>
+                                        <td>Minimalni za pasivne sklade,<br> veliki za mednarodne aktivne sklade,
+                                            <br><u>ogromni za slovenske aktivne sklade</u>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Vstopni stroški</th>
+                                        <td>Majhni</td>
+                                        <td>Nič za pasivne sklade,<br> veliki za aktivne sklade, <br><u>ogromni za
+                                                slovenske aktivne sklade</u></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Možnost nakupa tujim državljanom</th>
+                                        <td>Da</td>
+                                        <td>Ne</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Možnost nakupa deleža instrumenta</th>
+                                        <td>Običajno ne</td>
+                                        <td>Da</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Razpršenost naložb</th>
+                                        <td>velika za ETF-je, <br>nobena za delnice</td>
+                                        <td>velika za vse sklade</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Vsi stroški</th>
+                                        <td>majhni</td>
+                                        <td>majhni za pasivne sklade, <br>veliki za mednarodne aktivne sklade,
+                                            <br><u>ogromni za slovenske aktivne sklade</u>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p class="fw-bold">V EU, ne pa tudi v ZDA, velika večina ETF-jev sledi pasivnim skladom.
+                                Zato se v EU ETF velikokrat uporablja kot sinonim za indeksni sklad.</p>
+
+                            <h3 class="fs-4" id="vlaganje-v-druzbeno-odgovorna">Vlaganje v družbeno odgovorna podjetja
+                            </h3>
+                            <p>Vlaganje v te sklade nima nobenega smisla. Investitorji vlagajo neposredno v podjetja
+                                samo kadar investirajo v prvo javno ponudbo (Initial Public Offering = IPO). Sklad
+                                skladno s pravili upravljanja ne sme kupovati delnic ki še ne kotirajo na borzi tako da
+                                lahko kupi delnice podjetja šele po izvedeni prvi javni ponudbi. Skladi delnic ne
+                                kupujejo od podjetij, pač pa od delničarjev na sekundarnem trgu (na borzi). Podjetja,
+                                zelena in vseh drugih barv, od vašega kupovanja njihovih delnic (od drugih delničarjev
+                                in ne od podjetij samih) ne bodo imela ničesar.
+                            <ul>
+                                <li><a href="https://www.yahoo.com/video/buy-stock-heres-much-cash-180211114.html"
+                                        target="_blank">When You Buy A Stock, Here's How Much Cash The Company Actually
+                                        Receives</a></li>
+                                <li><a href="https://www.yahoo.com/now/buy-stocks-where-does-money-120029292.html"
+                                        target="_blank">When You Buy Stocks, Where Does Your Money Go & What Do You
+                                        Own?</a></li>
+                            </ul>
+                            </p>
+                            <p>Ker delničarji vlagajo v podjetja samo kadar kupijo delnice na prvi javni ponudbi
+                                (Initial Public Offering = IPO), padec ali rast delnic na sekundarnem trgu ne vpliva na
+                                bilanco podjetja ampak samo na vrednost portfelja onih ki to delnico že posedujejo.
+                                Podjetje Disney ob padcu delnice maja 2022 ni izgubilo niti centa "zaradi promoviranja
+                                prebujenske kulture" kot je vzhičeno poročala Nova24tv; 63 milijard $ so izgubili
+                                delničarji:
+                            <ul>
+                                <li><a href="https://nova24tv.si/sprosceno/walt-disney-zaradi-promoviranja-prebujenske-kulture-izgubil-skoraj-63-milijard-dolarjev/"
+                                        target="_blank">Walt Disney zaradi promoviranja “prebujenske” kulture izgubil
+                                        skoraj 63 milijard dolarjev</a></li>
+                            </ul>
+                            </p>
+                            <h3 class="fs-4" id="prebiranje-financnih-novic">Prebiranje finančnih novic</h3>
+                            <p>Tudi to nima nobenega smisla. Kar boste izvedeli so stare novice ki so se v parih
+                                sekundah že inkorporirale v ceno finančnih instrumentov.
+                                Novice bi bile uporabne le če bi bile za vnaprej: vedeti bi morali kaj se bo zgodilo v
+                                bližnji ali še bolje v daljni prihodnosti. Vedeti bi morali tudi kako bodo ljudje takrat
+                                psihološko reagirali na prav te novice. Za kaj takega pa rabite telefonsko številko
+                                boga. Pa še to, da bi Vi imeli profit od novic, bi Vi morali biti edini ali vsaj prvi
+                                katerim bi bog razkril kaj se bo zgodilo: če zvedo to vsi od tega za vas ne bo nobene
+                                koristi.
+                                Nihče, zlasti pa ne vaš finančni svetovalec (beri prodajalec) ne ve kaj se bo zgodilo
+                                čez eno minuto ali v naslednjih 10. letih. Edino kar imamo je velika verjetnost da se
+                                bodo donosi delniških trgov na dolgi rok tudi v bodoče odvijali podobno kot v zadnjih
+                                420 letih.</p>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=uk5cGhRhyjA"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/dan-solin-in-and-out.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">In and Out | Dan Solin's Investing Secrets</h3>
+                            </div>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=ysorxqXU4w0"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/dan-solin-false-prophets.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">False Prophets | Dan Solin's Investing Secrets</h3>
+                            </div>
+                            <h3 class="fs-4" id="preucevanje-podjetij">Preučevanje podjetij v katera vlagate</h3>
+                            <p>Gre za popolno izgubo časa. Trudite se kolikor hočete, nikoli ne boste odkrili prav
+                                ničesar kar že ni znano drugim investitorjem. Študij podjetij bi imel smisel le če bi
+                                bili Vi edini ki bi imeli na razpolago podatke in tudi edini ki bi te podatke pravilno
+                                interpretirali. Ob četrt milijona finančnih analitikov samo v ZDA in ob podatkih javno
+                                dostopnih na internetu je to misija nemogoče.</p>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=BlwU9nTFPLw"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/dan-solin-research-is-bad.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Research Is A Bad Idea! | Dan Solin's Investing
+                                    Secrets</h3>
+                            </div>
+                            <h3 class="fs-4" id="prednosti-krovnih-skladov">Takoimenovane “prednosti” krovnih skladov
+                            </h3>
+                            <p>Slovenski finančni svetovalci (beri prodajalci) Vas bodo prepričevali kako zelo so krovni
+                                skladi koristni ker ob zamenjavi podskladov istega krovnega sklada ne boste plačevali
+                                davkov. To je sicer res, vendar menjava naložbene politike prinaša več škode kot
+                                koristi.</p>
+                            <p>Res je da se donosnost posameznih alokacij (industrijskih sektorjev, držav ali tipov
+                                delnic) spreminja iz minute v minuto, dejstvo pa je da nihče vnaprej ne ve katera
+                                alokacija bo prevladovala tudi v bodoče. Finančni analitiki lahko zaznajo katera
+                                alokacija ima višje rezultate danes, vendar to ne pomeni da bo ohranjala višje donose
+                                tudi jutri. Hkrati z "mojstri slovenskega finančnega parketa" opazijo višje donose tudi
+                                vsi ostali analitiki našega planeta, kupijo več delnic trenutno zmagujoče alokacije, ji
+                                s tem dvignejo ceno in izničijo profit. <b>Podatki za nazaj nimajo prav nobene napovedne
+                                    vrednosti za prihodnost.</b></p>
+                            <p>Če to ne bi bilo res, bi slovenski aktivno vodeni skladi večjih trgov, npr ZDA ali
+                                globalni trgi, imeli višje donose od povprečja pasivnih skladov, vendar temu ni tako.
+                                Prav vsi slovenski skladi ki imitirajo globalne in ameriške trge so veliki luzerji.</p>
+                            <h3 class="fs-4" id="obdavcitev-v-sloveniji">Obdavčitev v Sloveniji</h3>
+                            <p>Stopnje davka na kapitalski dobiček (velja od 1. 1. 2022, za fizične osebe) so naslednje:
+                            <ul>
+                                <li>25 % v prvih petih letih varčevanja,</li>
+                                <li>20 % po petih do desetih letih varčevanja,</li>
+                                <li>15 % po desetih do petnajstih letih varčevanja,</li>
+                                <li>0 % po petnajstih letih varčevanja.</li>
+                            </ul>
+                            <a href="https://data.si/blog/davek-na-kapitalski-dobicek/" target="_blank">Davek na
+                                kapitalski dobiček</a>
+                            </p>
+                            <h3 class="fs-4" id="prijava-trgovalnega-racuna">Prijava trgovalnega računa v tujini</h3>
+                            <p>V kolikor ima fizična oseba <b>trgovalni račun odprt pri bankah v tujini oziroma ima
+                                    trgovalni račun odprt pri borznoposredniški hiši v tujini le tega ni potrebno
+                                    prijaviti Finančni upravi.</b> Prijava je potrebna šele ko imetnik računa dobi
+                                dividende (kadar ne vlaga v accumulating ETFs) in vedno kadar proda sklad. Ob
+                                kapitalskem dobičku mora državljan Slovenije FURSu narediti prijavo tudi kadar ne plača
+                                nobenega davka (po 15. letih in enem dnevu).</p>
+                            <p>Podrobnejše informacije v zvezi s prijavo računa v tujini so dostopne na priloženi
+                                povezavi:
+                            <ul>
+                                <li><a href="https://www.fu.gov.si/zivljenjski_dogodki_prebivalci/prijava_racuna_v_tujini/"
+                                        target="_blank">Kakšen je postopek prijave računa, odprtega v tujini?</a></li>
+                            </ul>
+                            </p>
+                            <h3 class="fs-4" id="tecaji-financnega-opismenjevanja">Tečaji finančnega opismenjevanja</h3>
+                            <p>Zadnje čase vse več borznoposredniških hiš v Sloveniji organizira takoimenovane tečaje
+                                finančnega opismenjevanja na katere vabijo zlasti mlade.</p>
+                            <p>Seveda je vsebina teh tečajev prirejena tako da ne bi motila profitabilnosti slovenske
+                                finančne industrije. Na tečajih Vam bodo pridigali da morate z vlaganjem začeti zgodaj
+                                in da morate razpršiti svoje naložbe. O škodljivem vplivu upravljalskih stroškov in o
+                                pasivnem načinu investiranja ne boste izvedeli nič. Finančna industrija noče izgubiti
+                                molznih krav katerim za astronomske provizije podtika škodljive finančne produkte.
+                            <ul>
+                                <li><a href="https://mojefinance.finance.si/financna-sola/najboljsa-sola-ki-jo-najstniku-lahko-podarite-je-da-ga-naucite-ravnati-z-denarjem/a/8987022?src=rectop?src=rectop"
+                                        target="_blank">Najboljša šola, ki jo najstniku lahko podarite, je, da ga
+                                        naučite ravnati z denarjem</a></li>
+                            </ul>
+                            </p>
+                            <h3 class="fs-4" id="zgodovinski-donosi">Zgodovinski donosi</h3>
+                            <p>Razen redkih izjem, kot je npr. zaprtje Ruske Borze leta 1917, so bili na dolgi rok
+                                donosi delnic kjerkoli po razvitem svetu visoko nad povprečno inflacijo.</p>
+                            <p>V ZDA še nikoli od ustanovitve prve borze v New Yorku leta 1792 ni bilo niti enega 15
+                                letnega obdobja kjer bi investitorji izgubili denar, in to ne gleda na velikost
+                                inflacije in na svetovne dogodke (№13).</p>
+                            <p>Letni donosi delnic, ZDA 1926-2000 (№15, №16):
+                            <ul>
+                                <li>Velika draga podjetja (big growth): 10.30 % letno</li>
+                                <li>Mala poceni podjetja (small value): 14.88 % letno</li>
+                            </ul>
+                            </p>
+                            <p>Prav ste prebrali, mala poceni podjetja imajo višje donose od velikih dragih podjetij.
+                                Zakaj? Zato ker morajo taka podjetja dajati vlagateljem zaradi svoje neuglednosti več,
+                                običajno v obliki višjih dividend. Če mala neugledna podjetja ne bi dajala višjih
+                                donosov jih pač ne bi nihče kupoval.</p>
+                            <p>Če pogledamo iz drugega zornega kota opazimo tudi da bi večina investitorjev raje
+                                kupovala delnice CocaCole kot Kokte. Ker raje kupujejo delnice CocaCole, slednjim cena
+                                zraste in s tem zmanjša profit.</p>
+                            <p>Ob padcu trgov padejo delnice malih poceni podjetij bolj, ob dvigu trgov pa naraščajo
+                                hitreje. Ker v 70% mesecev trg raste in ne pada, na dolgi rok delnice malih poceni
+                                podjetij prehitevajo velika draga podjetja.
+                            <div class="my-4">
+                                <img src="/assets/img/bizzio/value-vs-growth.png">
+                            </div>
+                            <ul>
+                                <li><a href="https://anchorcapital.com/value-vs-growth-still-value-value-investing/"
+                                        target="_blank">Value vs. Growth: Is There Still Value in Value Investing?</a>
+                                </li>
+                            </ul>
+                            </p>
+                            <p>Spodaj (2022 the Big Picture) si lahko ogledate grafe donosov delnic velikih podjetih
+                                ZDA, velikih mednarodnih podjetij izven ZDA, obveznic ameriških privatnih podjetij,
+                                ameriških državnih obveznic ter inflacije. Kot vidite so v zadnjih 100. letih najvišje
+                                donose imele ameriške delnice. V drugi polovici 19. stoletja pa so bile to Ruske delnice
+                                (№17).
+                            <div class="my-4">
+                                <img src="/assets/img/bizzio/investments-illustrated-big-picture.png">
+                            </div>
+                            <b>To kar vidite je VSE kar vam je trg zmožen dati, več kot je vidnega v teh grafih
+                                vlagatelji ne morejo dobiti ker ne obstaja.</b> Realni dobiček vsake alokacije (delnice,
+                            obveznice in treh ilustrativnih portfeljev) je razlika med krivuljami različnih barv ki
+                            ponazarjajo vrednost posamezne alokacije in najnižje temno-rjave linije ki ponazarja
+                            inflacijo. Opazili boste da tiste alokacije ki dajejo višje dohodke (delnice) med potjo
+                            navzgor bolj nihajo. Višje donose na dolgi rok boste plačali s slabim počutjem in
+                            neprespanimi nočmi ko bodo delnice za nekaj časa padle. Na svetu pač ni ničesar zastonj.</p>
+                            <p>Opazili boste tudi da so od leta 1926 povprečni letni donosi ameriških obveznic bili
+                                5.1%, kar je zaradi trenutnih nizkih obrestnih mer veliko več kot je danes.</p>
+                            <p>Malo nižje (2022 Morningstar Andex Chart) pa boste videli donose ameriških podjetij in
+                                ameriških državnih obveznic: mala podjetja: small blend = mešanica small value in small
+                                growth (temno modra linija), velika podjetja: large blend: mešanica large value in large
+                                growth (svetlo modra linija), mešani portfelj: 60% delnic in 40% obveznic (rumena
+                                linija), 20 letne državne obveznice (rdeča linija), 5 letne državne obveznice (oranžna
+                                linija), 30 dnevne državne obveznice (zelena linija) in inflacija (siva površina). Na
+                                dolgi rok imajo najboljše donose delnice malih podjetij, ki ob padcih trgov padejo bolj
+                                od delnic velikih podjetij, ob naraščanju trgov pa rastejo hitreje. V 70% mesecev trg
+                                raste, v 30% pa pada.
+                            <div class="my-4">
+                                <img src="/assets/img/bizzio/morning-star-andex-chart.png">
+                            </div>
+                            <ul>
+                                <li><a href="https://www.justetf.com/en/etf-profile.html?query=LU1829221024&groupField=index&from=search&isin=LU1829221024#chart"
+                                        target="_blank">Amundi Nasdaq-100 II UCITS ETF Acc
+                                    </a></li>
+                            </ul>
+                            </p>
+                            <p>Trenutno je samo v ZDA preko osem tisoč delnic ki kotirajo na <a
+                                    href="https://finviz.com/screener.ashx?v=111" target="_blank">borzi</a>, in skoraj
+                                sedem tisoč aktivno vodenih vzajemnih skladov (№18). Vsi upravitelji premoženja našega
+                                planeta (samo v ZDA jih je toliko kot prebivalcev Ljubljane) med seboj neusmiljeno
+                                tekmujejo da bi iz teh donosov zase in za svoje kliente potegnili čimveč.</p>
+                            <p>Če bo en upravitelj imel več sreče in bo v svoj portfelj vložil več bodočih zmagovalcev
+                                (in s stem ustvaril več od povprečja) bo za drugega upravitelja ostalo manj. <b
+                                    class="link-danger">Vsi upravitelji skupaj bodo dobili do centa enako kot nam daje
+                                    trg; vsi vlagatelji pa prav tako do centa enako kot nam daje trg minus stroški
+                                    upravljanja (ki jih poberejo upravitelji).</b> Vsako leto ima približno 40%
+                                managerjev izven Slovenije višje donose od povprečja, vendar se zmagovalci praviloma
+                                menjajo vsako leto. Gre torej za srečo, in ne za znanje.</p>
+                            <p>Takoj ko se pojavi nov trend (višji donosi posameznih podjetij, panog ali držav) to
+                                zaznajo analitiki vsega sveta in takoj kupijo delnice tistih podjetij, panog ali držav
+                                za katere predvidevajo da bodo tudi v bodoče imele višje donose. Zaradi njihovega nakupa
+                                cena bodočih potencialnih zmagovalcev naraste, profit za vse tiste ki kupijo iste
+                                zmagovalce za njimi pa se izniči.</p>
+                            <p class="fw-bold">Zato je prebiranje finančnih novic za vlagatelje kjerkoli po svetu
+                                popolna izguba časa čigar koristnost lahko primerjamo s cedenjem sline ob prebiranju
+                                starih loterijsih rezultatov.</p>
+                            <p>Donosi delnic so tako veliki zato ker na dolgi rok zaslužki podjetij močno prehitevajo
+                                inflacijo. Grafi ponazarjajo moč in vztrajnost kapitalizma: zaupajte v kapitalizem,
+                                nikakor pa ne v finančno industrijo. Edini cilj slednje namreč je da se čimbolj neopazno
+                                vrine med donose trga (katere ponazarjajo zgornji grafi) in med vlagatelje ter da pod
+                                krinko "plemenitenja" čim več pomolze zase. Slovenski svetovalci (beri prodajci) imajo
+                                zelo lahko delo zato ker je večina Slovenskih vlagateljev danes še vedno finančno
+                                nepismena.</p>
+                            <p>V indekse ne morete vlagati. Rezidenti ZDA lahko vlagajo v indeksne sklade, rezidenti EU
+                                pa v pasivne ETFe (Velika večina ETFov v EU je pasivnih). Oboji za indeksi zaostajajo le
+                                do 0.40% na leto. Ker indeksni skladi oziroma pasivni ETFi na voljo Slovencem ustvarijo
+                                le 0.03 do 0.4% profita Vam jih seveda nobeden "svetovalec" ne bo priporočil. Vsi
+                                prodajalci Vam bodo vsiljevali svoje produkte z visokimi provizijami od katerih živijo,
+                                sami pa bodo vlagali svoj osebni denar v pasivne sklade. Dragi aktivni skladi so
+                                namenjeni finančno nepismeni raji, ne njim samim.</p>
+                            <h3 class="fs-4" id="rebalansiranje-portfelja">Rebalansiranje portfelja</h3>
+                            <p>Nekateri finančni “svetovalci”, zlasti v ZDA, so desetletja pridigali da je potrebno
+                                portfelj od štiri pa do vsaj enkrat na leto rebalansirati, kar pomeni da je treba
+                                odstotek kapitala med zmagovalci in luzerji obdržati v istem razmerju.</p>
+                            <p>Če imamo npr. 60% kapitala v delnicah in 40% v obveznicah, bi morali čez čas, ko delež
+                                kapitala delnic preseže 65%, 5% delniškega kapitala prodati in z denarjem od prodaje
+                                kupiti obveznice. Na ta način bi bili prisiljeni prodajati drago in kupovati poceni.</p>
+                            <p>Čeprav izgleda teorija sicer privlačna za uho, je testiranje z modernejšimi računali
+                                pokazalo da je zaradi rebalansiranja večkrat napravljena škoda kot korist:
+                            <ul>
+                                <li><a href="https://www.forbes.com/sites/baldwin/2015/02/11/does-rebalancing-boost-returns/?sh=5dfd8ad15296"
+                                        target="_blank">Does Rebalancing Boost Returns?</a></li>
+                            </ul>
+                            </p>
+                            <h3 class="fs-4" id="vpliv-na-vrednost-delnic">Kaj vpliva na vrednost delnic</h3>
+                            <p>Na vrednost vplivata izključno ponudba in povpraševanje, slednje pa zavisi od zaslužkov
+                                in izgub podjetij.</p>
+                            <p>Oboje je seveda odvisno tudi od zaupanja ki ga vlagatelji tisti trenutek čutijo: kadar so
+                                vlagatelji bolj optimistični bodo kupovali več delnic in jim s tem dvigovali ceno in
+                                obratno. Zato se razmerje med cenami delnic in zaslužki spreminja s časom, tipom delnic
+                                in geografskim izvorom delnic.</p>
+                            <p>Nihče ne ve kakšno je “normalno” razmerje med vrednostjo delnic in zaslužki, kar vemo je
+                                samo povprečno razmerje zadnjih stopetdeset let. Trenutno so najbolj drage ameriške
+                                delnice, najcenjše pa ruske delnice. V 19. stoletju - do izbruha Oktobrske revolucije
+                                leta 1917 – je bila situacija obrnjena : najdražje so bile Ruske delnice (№17).</p>
+                            <p>Delnice so vredne le toliko kolikor je nekdo pripravljen za njih plačati in ne toliko
+                                kolikor nam povedo profesorji ekonomije. Ker vlagatelji vsega sveta danes bolj zaupajo
+                                ZDA kot Rusiji so ameriške delnice trenutno veliko dražje od ruskih (za ameriške delnice
+                                je potrebno plačati več v primerjavi z zaslužki podjetij ki delnice izdajajo).
+                            <ul>
+                                <li><a href="https://www.multpl.com/s-p-500-pe-ratio" target="_blank">S&P 500 PE
+                                        Ratio</a></li>
+                                <li><a href="https://indices.barclays/IM/21/en/indices/static/historic-cape.app"
+                                        target="_blank">Historic CAPE® Ratio by country</a></li>
+                            </ul>
+                            </p>
+                            <h3 class="fs-4" id="vpliv-stroskov">Vpliv stroškov</h3>
+                            <p>Glavni stroški so vstopni stroški, letni stroški in izstopni stroški.</p>
+                            <p><b>Največji strošek so letni stroški saj so obračunani vsako leto,</b> in sicer od 1 krat
+                                na mesec do 1 krat na vsak delovni dan.</p>
+                            <p>Povprečni letni stroški v Sloveniji so 2.5% kar se na prvi pogled zdi malo, vendar ne gre
+                                za odstotek profita pač pa za odstotek celotne vrednosti portfelja. To pomeni da Vam
+                                bodo posredniki pri 10% rasti pobrali 25% profita, pri 5% rasti pa 50% profita. Tudi
+                                kadar boste imeli izgube Vam bodo “mojstri” slovenskih financ pobrali isti delež celotne
+                                vrednosti porftelja, in to vsako leto.</p>
+                            <p>Zaradi obrestno obrestnega računa bodo stroški obračunani vsak mesec in vsak dan višji od
+                                stroškov ki bi bili izračunani enkrat na leto. Kadar se stroški obračunajo vsak mesec,
+                                se letni stroški delijo z 12, nato pa se 1/12 stroška odbije vsak mesec. Kadar se
+                                stroški obračunajo vsak dan, se letni stroški delijo z 365, nato pa se 1/365 stroška
+                                odbija vsak dan.</p>
+                            <ul>
+                                <li>2.5% odbit enkrat na leto pomeni da Vam odbijejo tak odstotek celotne vrednosti
+                                    portfelja:
+                                    2.500 % v enem letu (A1), 28.08 % v 10. letih (A2), 63.86% v 20. letih (A3) in
+                                    68.50% v 40. letih (A4)</li>
+                                <li>2.5% odbit vsak mesec pomeni dam Vam odbijejo tak odstotek celotne vrednosti
+                                    portfelja:
+                                    2.529 % v enem letu (B1), 28.369 % v 10. letih (B2), 64.786% v 20 letih (B3) in
+                                    71.546% v 40. letih (B4)</li>
+                                <li>2.5% odbit vsak dan pomeni dam Vam odbijejo tak odstotek celotne vrednosti
+                                    portfelja:
+                                    2.531% v enem letu (C1), 28.401 % v 10 letih (C2), 64.869% v 20 letih (C3) in
+                                    71.819% v 40. letih (C4)</li>
+                            </ul>
+                            <h3 class="fs-4" id="razlika-vlaganja-eu-zda">Kakšna je razlika med vlaganjem v EU in ZDA?
+                            </h3>
+                            <p>Principi vlaganja so identični, edina razlika je v obdavčenju in v finančni pismenosti
+                                vlagateljev.</p>
+                            <p>V Sloveniji je FURS do prihodkov finančnih instrumentov mnogo prizanešljivejši kot je IRS
+                                v ZDA. Vendar so po drugi strani slovenski vlagatelji manj finančno pismeni in veliko
+                                bolj naivni. Kot take pa se jih da pod krinko "plemenitja" veliko lažje skubiti.</p>
+                            <h3 class="fs-4" id="kriptovalute">Kriptovalute</h3>
+                            <p>Kokoši kupujemo zato ker nam nesejo jajca in dajejo meso. Krave kupujemo zato ker nam
+                                dajejo mleko in meso. Delnice podjetij pa kupujemo zato ker s tem kupimo del podjetja in
+                                del dobička (dividende ki so izplačane posebej ali reinvestirane v vrednost delnice).
+                            </p>
+                            <p>Kriptovaluta nasprotno ne proizvaja ničesar, kupimo jo v upanju da jo bo od nas kupil
+                                nekdo še za več kot smo sami plačali zanjo.</p>
+                            <p>Kakšna bo vrednost kriptovalut čez 10 let nimam pojma. Prav tako nisem prepričana da bodo
+                                kriptovalute takrat še obstajale. Za mene ima kupovanje kriptovalut prav tak smisel kot
+                                je bilo kupovanje tulipanov in drugih ekonomskih balonov v preteklih stoletjih:
+                            <ul>
+                                <li><a href="https://en.wikipedia.org/wiki/Economic_bubble" target="_blank">Economic
+                                        bubble</a></li>
+                            </ul>
+                            </p>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=I5ZR0jMlxX0"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/ted-ed-economic-bubbles.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">What causes economic bubbles? - Prateek Singh</h3>
+                            </div>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=VJY1TpADNNM"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/isaac-newton-lost-money.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Isaac Newton lost 3 million in the first Stock Market
+                                    Crash in the 1720s.</h3>
+                            </div>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=LtITDtZPYEw"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/warren-buffett-slams-bitcoin.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Warren Buffett: Bitcoin Is An Asset That Creates
+                                    Nothing | CNBC</h3>
+                            </div>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=HVm7Pfb0ilY"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/warren-buffett-dislikes-bitcoin.png"
+                                        alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">If you offered me all the bitcoin in the world for
+                                    $25, I wouldn't take it, says Warren Buffett</h3>
+                            </div>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=J6sEcFYQh_o"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/charlie-munger-bitcoin-stupid.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Bitcoin is stupid 'cause it's very likely to go to
+                                    zero,' says Charlie Munger</h3>
+                            </div>
+                            <h3 class="fs-4" id="zlahtne-kovine">Žlahtne kovine</h3>
+                            <p>Cene žlahtnih kovin so nestabilne in na dolgi rok dajejo samo toliko da premagajo
+                                inflacijo. Tako kot kriptovalute ne proizvajajo ničesar. Ne priporočam.</p>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=rnqarDYdwQc"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/buffett-gold-is-dumb.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Warren Buffett On Why GOLD is a DUMB INVESTMENT</h3>
+                            </div>
+                            <h3 class="fs-4" id="vlaganje-v-nepremicnine">Vlaganje v nepremičnine</h3>
+                            <p>Vlaganje v nepremičnine ima v Sloveniji dolgo tradicijo. Cene stanovanj zadnje čase
+                                rastejo v nebo. Vprašati pa se moramo če je to res najboljša naložba? Nikakor ni, to pa
+                                zato ker:
+                            <ul>
+                                <li>Prvič: Večino nepremičnin ne moremo prodati po delih ampak le v celoti.</li>
+                                <li>Drugič: Posedovanje nepremičnine je povezano s stroški, če jih oddajamo imamo lahko
+                                    težave s podnajemniki.</li>
+                                <li>Tretjič: donosi so veliko manjši kot donosi skladov. Ne verjamete? V začetku leta
+                                    2007 je bil kvadratni meter rabljenega stanovanja v Ljubljani 2630 EUR (№20), aprila
+                                    2022 pa je cena narasla na 3342 EUR (№21), torej za 27%. V istem časovnem obdobju
+                                    (med 1. januarjem 2007 in 15. aprilom 2022) pa je pasivni ETF ameriških velikih
+                                    podjetij narasel kar za 390% (№22). Samo za primerjavo: če ste nasedli slovenskim
+                                    “plemeniteljem premoženja” ste za aktivno vodeni sklad Triglav Severna Amerika (ki
+                                    naj bi zaradi aktivnega upravljanja presegel povprečje) v istem časovnem obdobju
+                                    dobili skoraj pol manj (201%).</li>
+                            </ul>
+                            </p>
+                            <p>Tudi na najbolj elitnih lokacijah našega planeta prodajna vrednost nepremičnin niti
+                                približno ne dohiteva rasti delniških trgov. Vzemimo npr. Peto Avenijo na Manhattanu.
+                                “Titovo” vilo ki je nekaj časa služila diplomatom SFRJ so zgradili leta 1905, takrat je
+                                bila vredna 60 tisoč $, septembra 2022 pa so jo prodali “kar za” 50 milijonov $.</p>
+                            <p>Če bi sredi leta 1905 vložili 60 tisoc $ v pasivni indeks SP500 bi septembra 2022 ne
+                                imeli 50 milijonov, pač pa 297 milijard $, torej 5940 krat več. Ne verjamete? Poglejte
+                                spodaj in se prepričajte na lastne oči:
+                            <ul>
+                                <li><a href="https://www.priceypads.com/devastating-fire-ravages-50m-gilded-age-mansion-on-nys-fifth-avenue-photos/"
+                                        target="_blank">Devastating Fire Ravages $50M Gilded Age Mansion on NY's Fifth
+                                        Avenue</a></li>
+                                <li><a href="https://darik.news/rhodeisland/gilded-age-mansion-on-fifth-avenue-sold-for-50-million/592858.html"
+                                        target="_blank">Gilded Age mansion on Fifth Avenue sold for $50 million</a></li>
+                                <li><a href="https://dqydj.com/sp-500-return-calculator/" target="_blank">S&P 500 Return
+                                        Calculator, with Dividend Reinvestment</a></li>
+                            </ul>
+                            </p>
+                            <p>V istem obdobju je vrednost dolarja prilagojenega inflaciji zrasla za 33.73 krat, torej
+                                so v današnjih $ za “Titovo vilo” leta 1905 plačali malo več kot dva milijona $
+                                (2023800.00)
+                            <ul>
+                                <li><a href="https://www.officialdata.org/us/inflation/1905?amount=1"
+                                        target="_blank">Value of $1 from 1905 to 2024</a></li>
+                            </ul>
+                            </p>
+                            <p>Na kratko, v 117. letih bi 60 tisoč $ zraslo na 2 milijona ob prilagotivi na inflacijo,
+                                na 50 milijonov če bi denar vložili v “Titovo vilo”, in na 297 milijard če bi namesto
+                                Titove vile kupili pasivni indeks SP500 in naredili absolutno nič.</p>
+
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Julij 1905</th>
+                                        <th scope="col">September 2022</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>60,000 $</td>
+                                        <td>2,023,800 $ prilagojeno na inflacijo</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>50,000,000 $ vrednost “Titove” vile</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>296,998,692,060 $ vrednost pasivnega indeksa SP500</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p><b>Zakaj taka razlika?</b><br> Nepremičnine (v primeru da jih ne oddajamo) tako kot
+                                žlahtne kovine ali kriptovalute ne proizvajajo ničesar, delnice pa nam štirikrat na leto
+                                dajo dividende.</p>
+                            <h3 class="fs-4" id="trgovanje-na-kratek-rok">Trgovanje na kratek rok (trading)</h3>
+                            <p>Ker so gibanja tečajev na kratek rok (10 let in manj) nepredvidljiva nima nobenega smisla
+                                da trgujete vsak dan. “Učitelji” tečajev trgovanja Vas bodo - ob primernemu plačilu -
+                                prepričevali v nasprotno. Če bi “učitelji” zares vedeli kako se služi z dnevnim
+                                trgovanjem bi prodali vse kar imajo, vzeli kredit, in nato trgovali sami s svojim
+                                lastnim denarjem. Svojih “skrivnosti” ne bi zaupali drugim saj bi s tem povečali
+                                konkurenco sebi.</p>
+                            <p>Če bi njihova “odkritja” bila v resnici kaj vredna jih ne bi prodajali za mali denar
+                                malim ljudem, pač pa bi jih prodali velikim borznim hišam za milijarde. Ke slednje vedo
+                                da “učitelji” blefirajo jim ne bodo plačale niti centa. Vse kar goljufom ostane so
+                                naivne ovčice katere s svojimi lažmi lovijo po internetu kjer jim sporočajo da so zaradi
+                                njihovega “odkritja” vlade in velike banke “pretresene”.</p>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=A_uB9bdzF0g"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/munger-gurus-are-stupid.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Charlie Munger DESTROYS Fake Gurus</h3>
+                            </div>
+                            <h3 class="fs-4" id="robert-rolih-njegovi-tecaji">Robert Rolih in njegovi tečaji</h3>
+                            <p>Gre za izvrstne strokovne in zabavne vendar drage tečaje. Žal preko njih glede vlaganja v
+                                sklade ne boste izvedeli nič več kot najdete zastonj tukaj. Robert Rolih nameni del
+                                predavanj tudi trgovanju s kriptovalutami in žlahtnimi kovinami, glede obojih sem podala
+                                svoje mnenje zgoraj.</p>
+                            <p>Gospod Rolih na veliko pridiga o finančni industriji ki za svoje škodljive produkte
+                                jemlje vlagateljem velik del dobička, nato pa sam - zato da lahko prodaja vedno nove in
+                                nove tečaje - počne popolnoma isto. Pravi da zanj dela ekipa ki naj bi med najboljšimi
+                                ETFi in kriptovalutami izbrala najbolj obetavne, on pa naj bi identiteto bodočih
+                                “zmagovalcev” - za primeren denar seveda - razkril udeležencem svojih tečajev.</p>
+                            <p>Seveda gospod Rolih ne ve kateri so bodoči "zmagovalci" med kriptovalutami in ETFi. Prav
+                                tako ne ve ali kripto zima septembra 2022 predstavlja konec za kripto trg ali priložnost
+                                za mega donose. Če bi to zares vedel tega ne bi prodajal udeležencem tečajev za par sto
+                                €, pač pa bi svoje "vizije" (beri ugibanja) prodal Wall Streetu za milijarde.</p>
+                            <p>Diplomirani ekonomist Rolih se je odločil da bo služil kruh s tečaji. Avtorica te
+                                stranice služi kruh drugače.</p>
+                            <h3 class="fs-4" id="luka-gubo-njegovi-tecaji">Luka Gubo in njegovi tečaji</h3>
+                            <p>Pred približno 10. leti se je na slovenski finančni sceni pojavil Luka Gubo. Najprej je
+                                delal reklamo za aktivno investiranje z “recepti” za preseganje povprečja, malo kasneje
+                                je prodajal zasoljene tečaje “Investiraj kot Warren Buffett”; vseskozi pa je tudi
+                                objavljal borzne komentarje:</p>
+                            <div class="gallery mb-4 pb-2" data-video="true">
+                                <a href="https://www.youtube.com/watch?v=LO6FsP2BUn0"
+                                    class="gallery-item video-item is-hovered rounded-3"
+                                    data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'>
+                                    <img src="assets/img/bizzio/luka-gubo-financni-tecaj.png" alt="Video preview">
+                                </a>
+                                <h3 class="h5 mb-4 pb-2 fw-medium">Aktivno investiranje</h3>
+                                <ul>
+                                    <li><a href="https://siol.net/avtorji/luka-gubo-21997/?ordering=newest&page_size=100"
+                                            target="_blank">Luka Gubo - Vsi Članki</a></li>
+                                </ul>
+                            </div>
+                            <p>Pa poglejmo kako je znanje ki ga je Luka prodajal drugim koristilo njemu samemu:</p>
+                            <p>Gospod Gubo je 23. aprila 2014 ustanovil sklad FT QUANT, mešani fleksibilni globalni
+                                sklad za katerega trdi da je “odlična rešitev za vse, ki pričakujejo nižjo stopnjo
+                                tveganja. Sklad namrec odlično uravnoteži tveganje celotnega portfelja, saj pomaga
+                                dosegati stabilne dolgoročne donose, brez občutnih padcev.”
+                            <ul>
+                                <li><a href="https://skladi.vzajemci.com/vzajemni-skladi/456/ft-quant"
+                                        target="_blank">FT Quant, mešani fleksibilni globalni sklad</a></li>
+                            </ul>
+                            </p>
+                            <p>Od ustanovitve sklada 23. aprila 2014 in med 30. decembrom 2022 je Quant narasel za
+                                <b>11.12%</b>. Za primerjavo: pasivni mešani fleksibilni globalni sklad VTTVX ki ima
+                                podoben odstotek delnic in obveznic je v istem času narasel za <b>100.46%</b>, pasivni
+                                indeks delnic razvitega sveta EXI2 pa za <b>150.34%</b>. Tisti ki ste bili preleni za
+                                učenje in ste namesto Lukovega tečaja o Warrenu Buffettu kupili kar Buffettovo delnico
+                                ste v istem obdobju pridelali kar za <b>234.63%</b> profita.</p>
+                            <p>Zakaj ima gospod Gubo navkljub znanju ekonomije katastrofalne rezultate? Zaradi aktivnega
+                                investiranja. Gospod Gubo je leta 2014 pričakoval recesijo in v svoj sklad vložil
+                                približno 40% obveznic, istočasno pa je tudi stavil proti Združenim državam in kupil
+                                veliko večino delnic izven ZDA. Skratka, pred 8. leti si je domišljal da ve kako se bodo
+                                odvijali dogodki pa se je zmotil. Njegova kristalna krogla takrat ni delovala.</p>
+
+
+                            <h3 class="fs-4" id="kontakt-financnih-institucij">Kadar kontaktirate uslužbence finančnih
+                                institucij</h3>
+                            <p>Zavedajte se da ne govorite s finančnim svetovalcem ki bi delal v vašo korist, ampak s
+                                prodajalcem ki ima interes da obdrži službo. Vi niste pomembni; kar šteje je da Vam bo
+                                prodal čim več produktov ki prinašajo dobiček njegovemu delodajalcu seveda na Vaš račun.
+                                Pri tem je popolnoma vseeno če je ta ”svetovalec” doktor ekonomskih znanosti ali
+                                srednješolec z enomesečnim tečajem prodaje. Edina razlika med obema je ta da se bo
+                                doktor ekonomije bolje zavedal da se mora zaradi preživetja prostituirati.</p>
+                            <p>Ne govorite po telefonu ampak kontaktirajte izključno pismeno, najbolje po elektronski
+                                pošti. Prodajalci radi govorijo kot dež da vas zmedejo. Na vaša vpašanja bodo
+                                odgovarjali na splošno, sadili Vam bodo rožice, Vas zasipali s puhlicami ter odgovarjali
+                                na vprašanja ki jih Vi niste zastavili. "Svetovalci" najraje govorijo o “razpršenosti
+                                portfelja” in "plemenitenju premoženja", sovražijo pa konkretna vprašanja kot npr
+                                primerjava donosov skladov njihovih hiš s povprečjem (indeksi). Tega vprašanja se bodo
+                                izogibali kot hudič križa. Če boste namesto dragih produktov njihove borzne hiše kupili
+                                poceni ETFe, namreč za njih ne bo kruha.</p>
+                            <p>Priljubljeni trik s katerim upravniki aktivno vodenih skladov prikrijejo svoje izgube je
+                                to da navajajo samo letne donose in se pretvarjajo kot da ne bi vedeli da je dejanski
+                                dolgoletni donos sklada - zaradi obrestno obrestnega računa - vedno manjši od povprečja
+                                letnih donosov:
+                            <ul>
+                                <li><a href="https://www.wallstreetmojo.com/geometric-mean-vs-arithmetic-mean/"
+                                        target="_blank">Geometric Mean vs Arithmetic Mean</a></li>
+                            </ul>
+                            Praktičen primer si lahko pogledate pod številko №24.
+                            </p>
+                            <p>Nikoli se ne odločajte na hitro predno bi česarkoli razumeli, ampak vedno le po
+                                temeljitem razmisleku. Ne kupite ničesar kar ne morete razložiti 15 letnemu
+                                osnovnošolcu. Če je produkt povprečnemu človeku nerazumljiv to ni zato ker bi bil
+                                povprečnež neumen, pač pa zato ker je produkt namenoma predstavljen na tak način da
+                                kupec ne dojame da sam sebi z nakupom dela škodo.</p>
+                            <p>Nikoli ne kombinirajte naložb in zavarovanj. Če potrebujete zavarovanje katerikoli vrste
+                                plačajte z gotovino, tako boste vsaj vedeli koliko ste placali. Najslabša so naložbena
+                                življenska zavarovanja.</p>
+                            <p>Če bo "svetovalec" preveč vsiljiv ga <b>v mailu vprašajte kateri skladi njegove firme
+                                    imajo po 10. in 15. letih enake ali višje donose od povprečja: ne slovenskega
+                                    povprečja, pač pa od indeksov.</b> Prodajalec bo Vaše vprašanje ignoriral ter vam
+                                začel pridigati o razpršenosti porftelja ter našteval nagrade ki so jih njegovi skladi
+                                dobili od drugih slovenskih upravnikov skladov. Vabil Vas bo na osebni “prijateljski”
+                                klepet ob kavici in prigrizkih v upanju da boste pozabili na nadvse nadležno vprašanje
+                                na katerega nima zadovoljivega odgovora.</p>
+
+                            <div class="vh-100">
+                                <h3 class="fs-4" id="warren-buffet-sklad-sp500">Koliko bi imeli danes če bi poslušali
+                                    Warrena Buffetta in vse premoženje vlagali v indeksni sklad SP500?</h3>
+                                <p>Od 19. maja 2010 je davčnim rezidentom Slovenije na voljo pasivni ETF SXR8. Ta ETF je
+                                    pasivno upravljan in se ne trudi preseči povprečja donosov 500 tih največjih ameriških
+                                    podjetij. Upravljalski stroški niso 2.5% kot pri večini aktivno vodenih slovenskih
+                                    skladov, pač pa le 0.07% kar je več kot 35 krat manj.</p>
+                                <p>Pojdite na svoj slovenski borzni račun in si izpišite vse datume depozitov skupaj z
+                                    vsotami € katere ste takrat investirali. Če ste pozabili, pošljite email svojemu
+                                    “svetovalcu” ter vprašajte njega.</p>
+                                <p>Nato pojdite na <a href="https://finance.yahoo.com/quote/SXR8.DE/history?p=SXR8.DE"
+                                        target="_blank">povezavo</a>.</p>
+                                <p>Izračunajte koliko ETF-ov bi lahko tisti dan, ob zaključku trgovanja, kupili z vašim
+                                    denarjem. (Vsoto v € delite z vrednostjo pod close ali adjusted close stolpcem - vsoti
+                                    sta enaki ker ta ETF sam reinvestira dividende).</p>
+                                <p>Seštejte koliko ETFov bi imeli danes nato pa to število pomnožite z vrednostjo ki jo ima
+                                    ETF na današnji dan. Na koncu delite to vsoto z 1.002 da vzamete v zakup stroške nakupa
+                                    in prodaje pri večini internetnih platform kot npr Optimtrader.</p>
+                                <p>Čisto na koncu, primerjajte to zadno številko z vsoto ki ko imaste na slovenskem
+                                    trgovalnem računu danes. Če imaste trgovalni račun pri NLB skladih, morate vsoto pri NLB
+                                    pomnožiti še z 0.99 da bi odšteli 1% stroškov prodaje.</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Back to top button -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+        <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+        <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+
+    <!-- Vendor Scripts -->
+    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/vendor/lightgallery/lightgallery.min.js"></script>
+    <script src="assets/vendor/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="assets/vendor/lightgallery/plugins/fullscreen/lg-fullscreen.min.js"></script>
+    <script src="assets/vendor/lightgallery/plugins/video/lg-video.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="assets/js/theme.min.js"></script>
+</body>
+
+</html>
